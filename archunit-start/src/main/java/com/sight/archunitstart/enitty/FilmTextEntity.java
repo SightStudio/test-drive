@@ -9,6 +9,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "film_text")
 public class FilmTextEntity {
+
     @Id
     @Column(name = "film_id", nullable = false)
     private Integer id;
