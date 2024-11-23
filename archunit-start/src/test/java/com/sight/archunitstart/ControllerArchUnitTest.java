@@ -41,6 +41,7 @@ class ControllerArchUnitTest extends ArchitectureTest {
             public void check(JavaMethod method, ConditionEvents conditionEvents) {
                 JavaClass returnType = method.getRawReturnType();
                 returnType.getSuperclass()
+                        .filter(superClass -> !superClass.getName().equals(Object.class.getName()))
                         .ifPresent(superclasses -> {
                                     String message = """
                                             %s#%s에서 상속된 클래스를 리턴하고 있습니다. 다음 클래스를 상속받고 있음 [%s]
