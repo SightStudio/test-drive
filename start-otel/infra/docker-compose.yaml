@@ -1,0 +1,16 @@
+version: "3"
+services:
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: jaeger
+    environment:
+      COLLECTOR_ZIPKIN_HOST_PORT: "9411"
+    ports:
+      - "6831:6831/udp"   # Thrift over UDP
+      - "6832:6832/udp"   # Thrift over UDP
+      - "5778:5778"       # Agent admin port
+      - "16686:16686"     # Jaeger UI
+      - "14250:14250"     # gRPC
+      - "14268:14268"     # HTTP
+      - "14269:14269"     # HTTP
+      - "9411:9411"
