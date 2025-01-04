@@ -1,5 +1,8 @@
 package com.sight.springbootbatchstart;
 
+import org.jooq.DSLContext;
+import org.jooq.Select;
+import org.jooq.generated.tables.JFilm;
 import org.junit.jupiter.api.Test;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParametersBuilder;
@@ -16,12 +19,30 @@ class SpringBootBatchStartApplicationTests {
     JobLauncher jobLauncher;
 
     @Autowired
-    Job myJob;
+    Job actorCreateJob;
+
+    @Autowired
+    DSLContext dslContext;
 
     @Test
     void 테스트() throws Exception {
         JobParametersBuilder jobParametersBuilder = new JobParametersBuilder();
-        jobParametersBuilder.addLocalDateTime("time", LocalDateTime.now());
-        jobLauncher.run(myJob, jobParametersBuilder.toJobParameters());
+        jobParametersBuilder.addLocalDateTime("invokeDateTime", LocalDateTime.now());
+        jobParametersBuilder.addLong("actorCount", 10L);
+        jobLauncher.run(actorCreateJob, jobParametersBuilder.toJobParameters());
+    }
+
+    @Test
+    void jooq테스트() {
+
+        dslContext.createTable()
+        JFilm film = JFilm.FILM;
+        Select<?> dsl = dslContext.selectFrom(JFilm.FILM)
+                .where(film.FILM_ID.eq(1L));
+
+        String render1 = dslContext.render(dsl.$select());
+        String render2 = dslContext.render(dsl.$from());
+        String render3 = dslContext.render(dsl.$where());
+        System.out.println();
     }
 }

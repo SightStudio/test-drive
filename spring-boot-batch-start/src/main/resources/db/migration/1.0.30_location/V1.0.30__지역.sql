@@ -5,7 +5,7 @@ create table country
     country     varchar(50)                         not null,
     last_update timestamp default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create table city
 (
@@ -18,7 +18,7 @@ create table city
         foreign key (country_id) references country (country_id)
             on update cascade
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create table address
 (
@@ -35,7 +35,7 @@ create table address
         foreign key (city_id) references city (city_id)
             on update cascade
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create index idx_fk_city_id
     on address (city_id);

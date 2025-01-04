@@ -10,10 +10,10 @@ create table staff
     store_id    int unsigned                         not null,
     active      tinyint(1) default 1                 not null,
     username    varchar(16)                          not null,
-    password    varchar(40) collate utf8mb3_bin      null,
+    password    varchar(40) collate utf8mb4_bin      null,
     last_update timestamp  default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create index idx_fk_address_id
     on staff (address_id);
@@ -34,7 +34,7 @@ create table store
         foreign key (manager_staff_id) references staff (staff_id)
             on update cascade
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create table inventory
 (
@@ -50,7 +50,7 @@ create table inventory
         foreign key (store_id) references store (store_id)
             on update cascade
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create index idx_fk_film_id
     on inventory (film_id);
@@ -80,7 +80,7 @@ create table rental
         foreign key (staff_id) references staff (staff_id)
             on update cascade
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create table payment
 (
@@ -102,7 +102,7 @@ create table payment
         foreign key (staff_id) references staff (staff_id)
             on update cascade
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create index idx_fk_customer_id
     on payment (customer_id);

@@ -10,7 +10,7 @@ create table customer
     create_date datetime                             not null,
     last_update timestamp  default CURRENT_TIMESTAMP null on update CURRENT_TIMESTAMP
 )
-    charset = utf8mb3;
+    charset = utf8mb4;
 
 create index idx_fk_address_id on customer (address_id);
 create index idx_fk_store_id on customer (store_id);
