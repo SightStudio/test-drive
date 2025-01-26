@@ -1,0 +1,92 @@
+version: "3.9"
+
+services:
+  # CMS GC 테스트 서버
+  cms-server:
+    build:
+      context: ./demo-cms
+      dockerfile: Dockerfile
+    volumes:
+      - ./gc-log/cms:/app/gc-log
+    ports:
+      - "8081:8080"
+      - "9010:9010"
+    environment:
+      JAVA_TOOL_OPTIONS:
+        >
+        -XX:+UseConcMarkSweepGC
+        -Xlog:gc*:file=/app/gc-log/gc.log:time,uptime,level,tags:filecount=5,filesize=10m
+        -Dcom.sun.management.jmxremote=true
+        -Dcom.sun.management.jmxremote.local.only=false
+        -Dcom.sun.management.jmxremote.authenticate=false
+        -Dcom.sun.management.jmxremote.ssl=false
+        -Djava.rmi.server.hostname=localhost
+        -Dcom.sun.management.jmxremote.port=9010
+        -Dcom.sun.management.jmxremote.rmi.port=9010
+    deploy:
+      resources:
+        limits:
+          memory: 2048M  # 최대 메모리 사용량을 512MB로 제한
+        reservations:
+          memory: 1024M   # 최소 메모리 예약량 256MB
+    restart: unless-stopped
+
+  # G1 GC 테스트 서버
+  g1-server:
+    build:
+      context: ./demo-modern-jvm
+      dockerfile: Dockerfile
+    volumes:
+      - ./gc-log/g1:/app/gc-log
+    ports:
+      - "8082:8080"
+      - "9011:9010"
+    environment:
+      JAVA_TOOL_OPTIONS:
+        >
+        -XX:+UseG1GC
+        -Xlog:gc*:file=/app/gc-log/gc.log:time,uptime,level,tags:filecount=5,filesize=10m
+        -Dcom.sun.management.jmxremote=true
+        -Dcom.sun.management.jmxremote.local.only=false
+        -Dcom.sun.management.jmxremote.authenticate=false
+        -Dcom.sun.management.jmxremote.ssl=false
+        -Djava.rmi.server.hostname=localhost
+        -Dcom.sun.management.jmxremote.port=9010
+        -Dcom.sun.management.jmxremote.rmi.port=9010
+    deploy:
+      resources:
+        limits:
+          memory: 2048M  # 최대 메모리 사용량을 512MB로 제한
+        reservations:
+          memory: 1024M   # 최소 메모리 예약량 256MB
+    restart: unless-stopped
+
+  # ZGC 테스트 서버
+  zgc-server:
+    build:
+      context: ./demo-modern-jvm
+      dockerfile: Dockerfile
+    volumes:
+      - ./gc-log/g1:/app/gc-log
+    ports:
+      - "8083:8080"
+      - "9012:9010"
+    environment:
+      JAVA_TOOL_OPTIONS:
+        >
+        -XX:+UseZGC
+        -Xlog:gc*:file=/app/gc-log/gc.log:time,uptime,level,tags:filecount=5,filesize=10m
+        -Dcom.sun.management.jmxremote=true
+        -Dcom.sun.management.jmxremote.local.only=false
+        -Dcom.sun.management.jmxremote.authenticate=false
+        -Dcom.sun.management.jmxremote.ssl=false
+        -Djava.rmi.server.hostname=localhost
+        -Dcom.sun.management.jmxremote.port=9010
+        -Dcom.sun.management.jmxremote.rmi.port=9010
+    deploy:
+      resources:
+        limits:
+          memory: 2048M  # 최대 메모리 사용량을 512MB로 제한
+        reservations:
+          memory: 1024M   # 최소 메모리 예약량 256MB
+    restart: unless-stopped

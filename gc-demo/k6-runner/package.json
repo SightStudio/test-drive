@@ -1,0 +1,20 @@
+{
+  "name": "k6-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-cms-demo": "k6 run cms-test.js",
+    "run-g1-demo": "k6 run g1-test.js",
+    "run-zgc-demo": "k6 run zgc-test.js",
+    "run-npm-install": "npm install"
+  },
+  "author": "sightstudio",
+  "license": "ISC",
+  "engines": {
+    "node": "22"
+  },
+  "devDependencies": {
+
+  }
+}

@@ -1,0 +1,29 @@
+import http from 'k6/http';
+import { sleep } from 'k6';
+
+export const options = {
+    vus: 10,  // 가상 사용자 수
+    duration: '30s',  // 테스트 지속 시간
+};
+
+const BASE_HOST = 'http://localhost:8080';  // Java 애플리케이션의 URL
+
+export default function () {
+    // 랜덤하게 엔드포인트 선택
+    const endpoint = ['/run-fragment'];
+
+    // 랜덤한 페이로드 생성
+    const payload = JSON.stringify({
+        data: `random_${randomIntBetween(1, 1000)}`,
+    });
+
+    // HTTP 요청 보내기
+    const res = http.post(
+        `${BASE_HOST}${endpoint}`,
+        payload,
+        {headers: { 'Content-Type': 'application/json' }}
+    );
+
+    // 랜덤한 시간 동안 대기 (0.1초에서 1초 사이)
+    sleep(randomIntBetween(1, 10) / 10);
+}

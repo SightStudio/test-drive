@@ -1,0 +1,1023 @@
+[2025-01-26T07:27:43.400+0000][0.091s][info][gc] Using Concurrent Mark Sweep
+[2025-01-26T07:27:43.403+0000][0.093s][info][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2025-01-26T07:27:45.772+0000][2.462s][info][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[2025-01-26T07:27:45.776+0000][2.466s][info][gc,task      ] GC(0) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:45.817+0000][2.507s][info][gc,heap      ] GC(0) ParNew: 8640K->1086K(9792K)
+[2025-01-26T07:27:45.818+0000][2.508s][info][gc,heap      ] GC(0) CMS: 0K->1271K(21888K)
+[2025-01-26T07:27:45.818+0000][2.509s][info][gc,metaspace ] GC(0) Metaspace: 13292K(13824K)->13292K(13824K) NonClass: 11986K(12288K)->11986K(12288K) Class: 1305K(1536K)->1305K(1536K)
+[2025-01-26T07:27:45.819+0000][2.509s][info][gc           ] GC(0) Pause Young (Allocation Failure) 8M->2M(30M) 47.348ms
+[2025-01-26T07:27:45.820+0000][2.510s][info][gc,cpu       ] GC(0) User=0.09s Sys=0.01s Real=0.05s
+[2025-01-26T07:27:46.501+0000][3.191s][info][gc,start     ] GC(1) Pause Young (Allocation Failure)
+[2025-01-26T07:27:46.502+0000][3.192s][info][gc,task      ] GC(1) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:46.518+0000][3.208s][info][gc,heap      ] GC(1) ParNew: 9790K->1035K(9792K)
+[2025-01-26T07:27:46.519+0000][3.209s][info][gc,heap      ] GC(1) CMS: 1271K->2344K(21888K)
+[2025-01-26T07:27:46.519+0000][3.209s][info][gc,metaspace ] GC(1) Metaspace: 14514K(15232K)->14514K(15232K) NonClass: 13103K(13568K)->13103K(13568K) Class: 1411K(1664K)->1411K(1664K)
+[2025-01-26T07:27:46.520+0000][3.210s][info][gc           ] GC(1) Pause Young (Allocation Failure) 10M->3M(30M) 18.974ms
+[2025-01-26T07:27:46.520+0000][3.210s][info][gc,cpu       ] GC(1) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:47.212+0000][3.902s][info][gc,start     ] GC(2) Pause Young (Allocation Failure)
+[2025-01-26T07:27:47.213+0000][3.903s][info][gc,task      ] GC(2) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:47.223+0000][3.913s][info][gc,heap      ] GC(2) ParNew: 9739K->1088K(9792K)
+[2025-01-26T07:27:47.224+0000][3.914s][info][gc,heap      ] GC(2) CMS: 2344K->2566K(21888K)
+[2025-01-26T07:27:47.224+0000][3.914s][info][gc,metaspace ] GC(2) Metaspace: 16452K(17152K)->16452K(17152K) NonClass: 14838K(15360K)->14838K(15360K) Class: 1614K(1792K)->1614K(1792K)
+[2025-01-26T07:27:47.225+0000][3.915s][info][gc           ] GC(2) Pause Young (Allocation Failure) 11M->3M(30M) 12.118ms
+[2025-01-26T07:27:47.225+0000][3.915s][info][gc,cpu       ] GC(2) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:47.809+0000][4.499s][info][gc,start     ] GC(3) Pause Young (Allocation Failure)
+[2025-01-26T07:27:47.810+0000][4.500s][info][gc,task      ] GC(3) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:47.823+0000][4.513s][info][gc,heap      ] GC(3) ParNew: 9792K->926K(9792K)
+[2025-01-26T07:27:47.824+0000][4.514s][info][gc,heap      ] GC(3) CMS: 2566K->3666K(21888K)
+[2025-01-26T07:27:47.824+0000][4.515s][info][gc,metaspace ] GC(3) Metaspace: 17903K(18432K)->17903K(18432K) NonClass: 16088K(16384K)->16088K(16384K) Class: 1814K(2048K)->1814K(2048K)
+[2025-01-26T07:27:47.825+0000][4.515s][info][gc           ] GC(3) Pause Young (Allocation Failure) 12M->4M(30M) 16.204ms
+[2025-01-26T07:27:47.825+0000][4.516s][info][gc,cpu       ] GC(3) User=0.06s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:48.554+0000][5.244s][info][gc,start     ] GC(4) Pause Young (Allocation Failure)
+[2025-01-26T07:27:48.555+0000][5.245s][info][gc,task      ] GC(4) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:48.564+0000][5.254s][info][gc,heap      ] GC(4) ParNew: 9630K->1020K(9792K)
+[2025-01-26T07:27:48.565+0000][5.255s][info][gc,heap      ] GC(4) CMS: 3666K->3666K(21888K)
+[2025-01-26T07:27:48.565+0000][5.255s][info][gc,metaspace ] GC(4) Metaspace: 19580K(20224K)->19580K(20224K) NonClass: 17539K(17920K)->17539K(17920K) Class: 2041K(2304K)->2041K(2304K)
+[2025-01-26T07:27:48.565+0000][5.256s][info][gc           ] GC(4) Pause Young (Allocation Failure) 12M->4M(30M) 11.406ms
+[2025-01-26T07:27:48.566+0000][5.256s][info][gc,cpu       ] GC(4) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:49.144+0000][5.834s][info][gc,start     ] GC(5) Pause Young (Allocation Failure)
+[2025-01-26T07:27:49.145+0000][5.835s][info][gc,task      ] GC(5) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:49.156+0000][5.846s][info][gc,heap      ] GC(5) ParNew: 9724K->620K(9792K)
+[2025-01-26T07:27:49.156+0000][5.846s][info][gc,heap      ] GC(5) CMS: 3666K->4647K(21888K)
+[2025-01-26T07:27:49.157+0000][5.847s][info][gc,metaspace ] GC(5) Metaspace: 20600K(21424K)->20600K(21424K) NonClass: 18400K(18864K)->18400K(18864K) Class: 2199K(2560K)->2199K(2560K)
+[2025-01-26T07:27:49.157+0000][5.847s][info][gc           ] GC(5) Pause Young (Allocation Failure) 13M->5M(30M) 13.452ms
+[2025-01-26T07:27:49.158+0000][5.848s][info][gc,cpu       ] GC(5) User=0.04s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:49.164+0000][5.854s][info][gc,start     ] GC(6) Pause Initial Mark
+[2025-01-26T07:27:49.168+0000][5.858s][info][gc           ] GC(6) Pause Initial Mark 5M->5M(30M) 4.158ms
+[2025-01-26T07:27:49.169+0000][5.859s][info][gc,cpu       ] GC(6) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:49.169+0000][5.859s][info][gc           ] GC(6) Concurrent Mark
+[2025-01-26T07:27:49.172+0000][5.862s][info][gc,task      ] GC(6) Using 2 workers of 2 for marking
+[2025-01-26T07:27:49.210+0000][5.900s][info][gc           ] GC(6) Concurrent Mark 40.514ms
+[2025-01-26T07:27:49.211+0000][5.901s][info][gc,cpu       ] GC(6) User=0.15s Sys=0.01s Real=0.04s
+[2025-01-26T07:27:49.212+0000][5.902s][info][gc           ] GC(6) Concurrent Preclean
+[2025-01-26T07:27:49.221+0000][5.911s][info][gc           ] GC(6) Concurrent Preclean 9.163ms
+[2025-01-26T07:27:49.222+0000][5.912s][info][gc,cpu       ] GC(6) User=0.03s Sys=0.01s Real=0.01s
+[2025-01-26T07:27:49.224+0000][5.914s][info][gc,start     ] GC(6) Pause Remark
+[2025-01-26T07:27:49.238+0000][5.928s][info][gc           ] GC(6) Pause Remark 6M->6M(30M) 13.804ms
+[2025-01-26T07:27:49.239+0000][5.929s][info][gc,cpu       ] GC(6) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:49.240+0000][5.930s][info][gc           ] GC(6) Concurrent Sweep
+[2025-01-26T07:27:49.258+0000][5.948s][info][gc           ] GC(6) Concurrent Sweep 18.608ms
+[2025-01-26T07:27:49.259+0000][5.949s][info][gc,cpu       ] GC(6) User=0.04s Sys=0.01s Real=0.02s
+[2025-01-26T07:27:49.260+0000][5.950s][info][gc           ] GC(6) Concurrent Reset
+[2025-01-26T07:27:49.265+0000][5.955s][info][gc           ] GC(6) Concurrent Reset 4.551ms
+[2025-01-26T07:27:49.265+0000][5.955s][info][gc,cpu       ] GC(6) User=0.01s Sys=0.00s Real=0.00s
+[2025-01-26T07:27:49.266+0000][5.956s][info][gc,heap      ] GC(6) Old: 4647K->4536K(21888K)
+[2025-01-26T07:27:50.075+0000][6.766s][info][gc,start     ] GC(7) Pause Young (Allocation Failure)
+[2025-01-26T07:27:50.082+0000][6.772s][info][gc,task      ] GC(7) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:50.129+0000][6.819s][info][gc,heap      ] GC(7) ParNew: 9324K->876K(9792K)
+[2025-01-26T07:27:50.130+0000][6.820s][info][gc,heap      ] GC(7) CMS: 4536K->4536K(21888K)
+[2025-01-26T07:27:50.130+0000][6.820s][info][gc,metaspace ] GC(7) Metaspace: 22196K(23164K)->22196K(23164K) NonClass: 19782K(20348K)->19782K(20348K) Class: 2414K(2816K)->2414K(2816K)
+[2025-01-26T07:27:50.132+0000][6.822s][info][gc           ] GC(7) Pause Young (Allocation Failure) 13M->5M(30M) 57.509ms
+[2025-01-26T07:27:50.133+0000][6.823s][info][gc,cpu       ] GC(7) User=0.12s Sys=0.04s Real=0.06s
+[2025-01-26T07:27:50.455+0000][7.146s][info][gc,start     ] GC(8) Pause Young (Allocation Failure)
+[2025-01-26T07:27:50.456+0000][7.146s][info][gc,task      ] GC(8) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:50.467+0000][7.157s][info][gc,heap      ] GC(8) ParNew: 9580K->963K(9792K)
+[2025-01-26T07:27:50.468+0000][7.158s][info][gc,heap      ] GC(8) CMS: 4536K->4907K(21888K)
+[2025-01-26T07:27:50.468+0000][7.158s][info][gc,metaspace ] GC(8) Metaspace: 23615K(24448K)->23615K(24448K) NonClass: 21043K(21504K)->21043K(21504K) Class: 2571K(2944K)->2571K(2944K)
+[2025-01-26T07:27:50.469+0000][7.159s][info][gc           ] GC(8) Pause Young (Allocation Failure) 13M->5M(30M) 13.299ms
+[2025-01-26T07:27:50.470+0000][7.160s][info][gc,cpu       ] GC(8) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:50.791+0000][7.481s][info][gc,start     ] GC(9) Pause Young (Allocation Failure)
+[2025-01-26T07:27:50.792+0000][7.482s][info][gc,task      ] GC(9) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:50.797+0000][7.487s][info][gc,heap      ] GC(9) ParNew: 9667K->940K(9792K)
+[2025-01-26T07:27:50.798+0000][7.488s][info][gc,heap      ] GC(9) CMS: 4907K->5176K(21888K)
+[2025-01-26T07:27:50.798+0000][7.488s][info][gc,metaspace ] GC(9) Metaspace: 24985K(26112K)->24985K(26112K) NonClass: 22262K(23040K)->22262K(23040K) Class: 2722K(3072K)->2722K(3072K)
+[2025-01-26T07:27:50.799+0000][7.489s][info][gc           ] GC(9) Pause Young (Allocation Failure) 14M->5M(30M) 7.900ms
+[2025-01-26T07:27:50.799+0000][7.489s][info][gc,cpu       ] GC(9) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:51.107+0000][7.797s][info][gc,start     ] GC(10) Pause Young (Allocation Failure)
+[2025-01-26T07:27:51.108+0000][7.798s][info][gc,task      ] GC(10) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:51.116+0000][7.806s][info][gc,heap      ] GC(10) ParNew: 9644K->1088K(9792K)
+[2025-01-26T07:27:51.117+0000][7.807s][info][gc,heap      ] GC(10) CMS: 5176K->5411K(21888K)
+[2025-01-26T07:27:51.117+0000][7.807s][info][gc,metaspace ] GC(10) Metaspace: 26114K(27392K)->26114K(27392K) NonClass: 23248K(24064K)->23248K(24064K) Class: 2866K(3328K)->2866K(3328K)
+[2025-01-26T07:27:51.118+0000][7.808s][info][gc           ] GC(10) Pause Young (Allocation Failure) 14M->6M(30M) 10.365ms
+[2025-01-26T07:27:51.118+0000][7.808s][info][gc,cpu       ] GC(10) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:51.371+0000][8.061s][info][gc,start     ] GC(11) Pause Young (Allocation Failure)
+[2025-01-26T07:27:51.372+0000][8.062s][info][gc,task      ] GC(11) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:51.380+0000][8.070s][info][gc,heap      ] GC(11) ParNew: 9792K->876K(9792K)
+[2025-01-26T07:27:51.380+0000][8.070s][info][gc,heap      ] GC(11) CMS: 5411K->5828K(21888K)
+[2025-01-26T07:27:51.381+0000][8.071s][info][gc,metaspace ] GC(11) Metaspace: 27183K(28288K)->27183K(28288K) NonClass: 24161K(24832K)->24161K(24832K) Class: 3022K(3456K)->3022K(3456K)
+[2025-01-26T07:27:51.381+0000][8.071s][info][gc           ] GC(11) Pause Young (Allocation Failure) 14M->6M(30M) 10.046ms
+[2025-01-26T07:27:51.382+0000][8.072s][info][gc,cpu       ] GC(11) User=0.04s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:52.095+0000][8.785s][info][gc,start     ] GC(12) Pause Young (Allocation Failure)
+[2025-01-26T07:27:52.096+0000][8.786s][info][gc,task      ] GC(12) Using 3 workers of 5 for evacuation
+[2025-01-26T07:27:52.104+0000][8.794s][info][gc,heap      ] GC(12) ParNew: 9580K->994K(9792K)
+[2025-01-26T07:27:52.105+0000][8.795s][info][gc,heap      ] GC(12) CMS: 5828K->5828K(21888K)
+[2025-01-26T07:27:52.106+0000][8.796s][info][gc,metaspace ] GC(12) Metaspace: 28359K(29440K)->28359K(29440K) NonClass: 25195K(25856K)->25195K(25856K) Class: 3164K(3584K)->3164K(3584K)
+[2025-01-26T07:27:52.106+0000][8.796s][info][gc           ] GC(12) Pause Young (Allocation Failure) 15M->6M(30M) 11.006ms
+[2025-01-26T07:27:52.107+0000][8.797s][info][gc,cpu       ] GC(12) User=0.03s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:52.420+0000][9.110s][info][gc,start     ] GC(13) Pause Young (Allocation Failure)
+[2025-01-26T07:27:52.421+0000][9.111s][info][gc,task      ] GC(13) Using 4 workers of 5 for evacuation
+[2025-01-26T07:27:52.429+0000][9.119s][info][gc,heap      ] GC(13) ParNew: 9698K->1088K(9792K)
+[2025-01-26T07:27:52.429+0000][9.120s][info][gc,heap      ] GC(13) CMS: 5828K->6084K(21888K)
+[2025-01-26T07:27:52.430+0000][9.120s][info][gc,metaspace ] GC(13) Metaspace: 28697K(29696K)->28697K(29696K) NonClass: 25500K(26112K)->25500K(26112K) Class: 3197K(3584K)->3197K(3584K)
+[2025-01-26T07:27:52.430+0000][9.120s][info][gc           ] GC(13) Pause Young (Allocation Failure) 15M->7M(30M) 10.737ms
+[2025-01-26T07:27:52.431+0000][9.121s][info][gc,cpu       ] GC(13) User=0.03s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:52.574+0000][9.265s][info][gc,start     ] GC(14) Pause Young (Allocation Failure)
+[2025-01-26T07:27:52.575+0000][9.265s][info][gc,task      ] GC(14) Using 3 workers of 5 for evacuation
+[2025-01-26T07:27:52.591+0000][9.281s][info][gc,heap      ] GC(14) ParNew: 9792K->946K(9792K)
+[2025-01-26T07:27:52.592+0000][9.282s][info][gc,heap      ] GC(14) CMS: 6084K->7101K(21888K)
+[2025-01-26T07:27:52.592+0000][9.282s][info][gc,metaspace ] GC(14) Metaspace: 28974K(30080K)->28974K(30080K) NonClass: 25744K(26368K)->25744K(26368K) Class: 3229K(3712K)->3229K(3712K)
+[2025-01-26T07:27:52.593+0000][9.283s][info][gc           ] GC(14) Pause Young (Allocation Failure) 15M->7M(30M) 18.313ms
+[2025-01-26T07:27:52.593+0000][9.283s][info][gc,cpu       ] GC(14) User=0.06s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:53.279+0000][9.969s][info][gc,start     ] GC(15) Pause Young (Allocation Failure)
+[2025-01-26T07:27:53.280+0000][9.970s][info][gc,task      ] GC(15) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:53.287+0000][9.977s][info][gc,heap      ] GC(15) ParNew: 9650K->1072K(9792K)
+[2025-01-26T07:27:53.288+0000][9.978s][info][gc,heap      ] GC(15) CMS: 7101K->7101K(21888K)
+[2025-01-26T07:27:53.288+0000][9.979s][info][gc,metaspace ] GC(15) Metaspace: 29459K(30592K)->29459K(30592K) NonClass: 26171K(26880K)->26171K(26880K) Class: 3288K(3712K)->3288K(3712K)
+[2025-01-26T07:27:53.289+0000][9.979s][info][gc           ] GC(15) Pause Young (Allocation Failure) 16M->7M(30M) 10.444ms
+[2025-01-26T07:27:53.289+0000][9.980s][info][gc,cpu       ] GC(15) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:53.824+0000][10.514s][info][gc,start     ] GC(16) Pause Young (Allocation Failure)
+[2025-01-26T07:27:53.825+0000][10.515s][info][gc,task      ] GC(16) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:53.837+0000][10.527s][info][gc,heap      ] GC(16) ParNew: 9776K->756K(9792K)
+[2025-01-26T07:27:53.837+0000][10.527s][info][gc,heap      ] GC(16) CMS: 7101K->8019K(21888K)
+[2025-01-26T07:27:53.838+0000][10.528s][info][gc,metaspace ] GC(16) Metaspace: 29878K(31104K)->29878K(31104K) NonClass: 26555K(27392K)->26555K(27392K) Class: 3323K(3712K)->3323K(3712K)
+[2025-01-26T07:27:53.838+0000][10.528s][info][gc           ] GC(16) Pause Young (Allocation Failure) 16M->8M(30M) 14.180ms
+[2025-01-26T07:27:53.839+0000][10.529s][info][gc,cpu       ] GC(16) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:54.365+0000][11.056s][info][gc,start     ] GC(17) Pause Young (Allocation Failure)
+[2025-01-26T07:27:54.366+0000][11.057s][info][gc,task      ] GC(17) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:54.375+0000][11.065s][info][gc,heap      ] GC(17) ParNew: 9460K->1088K(9792K)
+[2025-01-26T07:27:54.375+0000][11.065s][info][gc,heap      ] GC(17) CMS: 8019K->8019K(21888K)
+[2025-01-26T07:27:54.376+0000][11.066s][info][gc,metaspace ] GC(17) Metaspace: 30327K(31488K)->30327K(31488K) NonClass: 26953K(27648K)->26953K(27648K) Class: 3373K(3840K)->3373K(3840K)
+[2025-01-26T07:27:54.376+0000][11.066s][info][gc           ] GC(17) Pause Young (Allocation Failure) 17M->8M(30M) 10.634ms
+[2025-01-26T07:27:54.376+0000][11.067s][info][gc,cpu       ] GC(17) User=0.01s Sys=0.01s Real=0.01s
+[2025-01-26T07:27:55.039+0000][11.729s][info][gc,start     ] GC(18) Pause Young (Allocation Failure)
+[2025-01-26T07:27:55.040+0000][11.730s][info][gc,task      ] GC(18) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:55.053+0000][11.743s][info][gc,heap      ] GC(18) ParNew: 9792K->1088K(9792K)
+[2025-01-26T07:27:55.053+0000][11.743s][info][gc,heap      ] GC(18) CMS: 8019K->8473K(21888K)
+[2025-01-26T07:27:55.054+0000][11.744s][info][gc,metaspace ] GC(18) Metaspace: 31342K(32640K)->31342K(32640K) NonClass: 27843K(28672K)->27843K(28672K) Class: 3498K(3968K)->3498K(3968K)
+[2025-01-26T07:27:55.054+0000][11.744s][info][gc           ] GC(18) Pause Young (Allocation Failure) 17M->9M(30M) 15.259ms
+[2025-01-26T07:27:55.055+0000][11.745s][info][gc,cpu       ] GC(18) User=0.04s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:56.559+0000][13.250s][info][gc,start     ] GC(19) Pause Young (Allocation Failure)
+[2025-01-26T07:27:56.563+0000][13.254s][info][gc,task      ] GC(19) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:56.591+0000][13.281s][info][gc,heap      ] GC(19) ParNew: 9792K->1088K(9792K)
+[2025-01-26T07:27:56.592+0000][13.282s][info][gc,heap      ] GC(19) CMS: 8473K->9038K(21888K)
+[2025-01-26T07:27:56.592+0000][13.282s][info][gc,metaspace ] GC(19) Metaspace: 32003K(33280K)->32003K(33280K) NonClass: 28407K(29184K)->28407K(29184K) Class: 3596K(4096K)->3596K(4096K)
+[2025-01-26T07:27:56.593+0000][13.283s][info][gc           ] GC(19) Pause Young (Allocation Failure) 17M->9M(30M) 34.087ms
+[2025-01-26T07:27:56.594+0000][13.284s][info][gc,cpu       ] GC(19) User=0.05s Sys=0.00s Real=0.03s
+[2025-01-26T07:27:57.282+0000][13.972s][info][gc,start     ] GC(20) Pause Young (Allocation Failure)
+[2025-01-26T07:27:57.283+0000][13.973s][info][gc,task      ] GC(20) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:57.297+0000][13.987s][info][gc,heap      ] GC(20) ParNew: 9792K->1088K(9792K)
+[2025-01-26T07:27:57.297+0000][13.988s][info][gc,heap      ] GC(20) CMS: 9038K->9445K(21888K)
+[2025-01-26T07:27:57.298+0000][13.988s][info][gc,metaspace ] GC(20) Metaspace: 33310K(34432K)->33310K(34432K) NonClass: 29543K(30208K)->29543K(30208K) Class: 3766K(4224K)->3766K(4224K)
+[2025-01-26T07:27:57.298+0000][13.989s][info][gc           ] GC(20) Pause Young (Allocation Failure) 18M->10M(30M) 16.547ms
+[2025-01-26T07:27:57.299+0000][13.989s][info][gc,cpu       ] GC(20) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:57.972+0000][14.662s][info][gc,start     ] GC(21) Pause Young (Allocation Failure)
+[2025-01-26T07:27:57.973+0000][14.663s][info][gc,task      ] GC(21) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:57.990+0000][14.680s][info][gc,heap      ] GC(21) ParNew: 9792K->1088K(9792K)
+[2025-01-26T07:27:57.990+0000][14.680s][info][gc,heap      ] GC(21) CMS: 9445K->10491K(21888K)
+[2025-01-26T07:27:57.991+0000][14.681s][info][gc,metaspace ] GC(21) Metaspace: 34527K(35712K)->34527K(35712K) NonClass: 30588K(31232K)->30588K(31232K) Class: 3938K(4480K)->3938K(4480K)
+[2025-01-26T07:27:57.991+0000][14.681s][info][gc           ] GC(21) Pause Young (Allocation Failure) 18M->11M(30M) 19.092ms
+[2025-01-26T07:27:57.992+0000][14.682s][info][gc,cpu       ] GC(21) User=0.05s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:58.458+0000][15.148s][info][gc,start     ] GC(22) Pause Young (Allocation Failure)
+[2025-01-26T07:27:58.459+0000][15.149s][info][gc,task      ] GC(22) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:58.471+0000][15.162s][info][gc,heap      ] GC(22) ParNew: 9792K->835K(9792K)
+[2025-01-26T07:27:58.472+0000][15.162s][info][gc,heap      ] GC(22) CMS: 10491K->11239K(21888K)
+[2025-01-26T07:27:58.473+0000][15.163s][info][gc,metaspace ] GC(22) Metaspace: 35633K(37044K)->35633K(37044K) NonClass: 31547K(32436K)->31547K(32436K) Class: 4086K(4608K)->4086K(4608K)
+[2025-01-26T07:27:58.473+0000][15.163s][info][gc           ] GC(22) Pause Young (Allocation Failure) 19M->11M(30M) 15.252ms
+[2025-01-26T07:27:58.473+0000][15.164s][info][gc,cpu       ] GC(22) User=0.06s Sys=0.01s Real=0.02s
+[2025-01-26T07:27:58.477+0000][15.167s][info][gc,start     ] GC(23) Pause Initial Mark
+[2025-01-26T07:27:58.481+0000][15.171s][info][gc           ] GC(23) Pause Initial Mark 11M->11M(30M) 4.171ms
+[2025-01-26T07:27:58.481+0000][15.172s][info][gc,cpu       ] GC(23) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:58.482+0000][15.172s][info][gc           ] GC(23) Concurrent Mark
+[2025-01-26T07:27:58.483+0000][15.173s][info][gc,task      ] GC(23) Using 2 workers of 2 for marking
+[2025-01-26T07:27:58.521+0000][15.211s][info][gc           ] GC(23) Concurrent Mark 38.865ms
+[2025-01-26T07:27:58.522+0000][15.212s][info][gc,cpu       ] GC(23) User=0.18s Sys=0.00s Real=0.04s
+[2025-01-26T07:27:58.522+0000][15.213s][info][gc           ] GC(23) Concurrent Preclean
+[2025-01-26T07:27:58.526+0000][15.216s][info][gc           ] GC(23) Concurrent Preclean 3.450ms
+[2025-01-26T07:27:58.526+0000][15.217s][info][gc,cpu       ] GC(23) User=0.02s Sys=0.01s Real=0.00s
+[2025-01-26T07:27:58.528+0000][15.218s][info][gc,start     ] GC(23) Pause Remark
+[2025-01-26T07:27:58.550+0000][15.240s][info][gc           ] GC(23) Pause Remark 12M->12M(30M) 21.828ms
+[2025-01-26T07:27:58.551+0000][15.241s][info][gc,cpu       ] GC(23) User=0.06s Sys=0.00s Real=0.03s
+[2025-01-26T07:27:58.552+0000][15.242s][info][gc           ] GC(23) Concurrent Sweep
+[2025-01-26T07:27:58.576+0000][15.266s][info][gc           ] GC(23) Concurrent Sweep 24.469ms
+[2025-01-26T07:27:58.577+0000][15.267s][info][gc,cpu       ] GC(23) User=0.11s Sys=0.00s Real=0.02s
+[2025-01-26T07:27:58.578+0000][15.268s][info][gc           ] GC(23) Concurrent Reset
+[2025-01-26T07:27:58.580+0000][15.270s][info][gc           ] GC(23) Concurrent Reset 1.588ms
+[2025-01-26T07:27:58.581+0000][15.271s][info][gc,cpu       ] GC(23) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:58.581+0000][15.271s][info][gc,heap      ] GC(23) Old: 11239K->9922K(21888K)
+[2025-01-26T07:27:58.903+0000][15.593s][info][gc,start     ] GC(24) Pause Young (Allocation Failure)
+[2025-01-26T07:27:58.903+0000][15.594s][info][gc,task      ] GC(24) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:58.915+0000][15.605s][info][gc,heap      ] GC(24) ParNew: 9539K->1088K(9792K)
+[2025-01-26T07:27:58.916+0000][15.606s][info][gc,heap      ] GC(24) CMS: 9922K->10454K(21888K)
+[2025-01-26T07:27:58.916+0000][15.607s][info][gc,metaspace ] GC(24) Metaspace: 36894K(38452K)->36894K(38452K) NonClass: 32694K(33716K)->32694K(33716K) Class: 4200K(4736K)->4200K(4736K)
+[2025-01-26T07:27:58.917+0000][15.607s][info][gc           ] GC(24) Pause Young (Allocation Failure) 19M->11M(30M) 14.364ms
+[2025-01-26T07:27:58.917+0000][15.608s][info][gc,cpu       ] GC(24) User=0.03s Sys=0.00s Real=0.01s
+[2025-01-26T07:27:59.560+0000][16.251s][info][gc,start     ] GC(25) Pause Young (Allocation Failure)
+[2025-01-26T07:27:59.561+0000][16.251s][info][gc,task      ] GC(25) Using 2 workers of 5 for evacuation
+[2025-01-26T07:27:59.577+0000][16.267s][info][gc,heap      ] GC(25) ParNew: 9791K->1088K(9792K)
+[2025-01-26T07:27:59.578+0000][16.268s][info][gc,heap      ] GC(25) CMS: 10454K->11211K(21888K)
+[2025-01-26T07:27:59.578+0000][16.268s][info][gc,metaspace ] GC(25) Metaspace: 38307K(39732K)->38307K(39732K) NonClass: 33904K(34740K)->33904K(34740K) Class: 4403K(4992K)->4403K(4992K)
+[2025-01-26T07:27:59.579+0000][16.269s][info][gc           ] GC(25) Pause Young (Allocation Failure) 19M->12M(30M) 18.285ms
+[2025-01-26T07:27:59.579+0000][16.269s][info][gc,cpu       ] GC(25) User=0.05s Sys=0.00s Real=0.02s
+[2025-01-26T07:28:00.171+0000][16.861s][info][gc,start     ] GC(26) Pause Young (Allocation Failure)
+[2025-01-26T07:28:00.176+0000][16.866s][info][gc,task      ] GC(26) Using 5 workers of 5 for evacuation
+[2025-01-26T07:28:00.184+0000][16.874s][info][gc,heap      ] GC(26) ParNew: 9792K->998K(9792K)
+[2025-01-26T07:28:00.184+0000][16.875s][info][gc,heap      ] GC(26) CMS: 11211K->12055K(21888K)
+[2025-01-26T07:28:00.185+0000][16.875s][info][gc,metaspace ] GC(26) Metaspace: 39446K(41012K)->39446K(41012K) NonClass: 34871K(35764K)->34871K(35764K) Class: 4574K(5248K)->4574K(5248K)
+[2025-01-26T07:28:00.185+0000][16.876s][info][gc           ] GC(26) Pause Young (Allocation Failure) 20M->12M(30M) 14.590ms
+[2025-01-26T07:28:00.186+0000][16.876s][info][gc,cpu       ] GC(26) User=0.03s Sys=0.00s Real=0.01s
+[2025-01-26T07:28:00.675+0000][17.365s][info][gc,start     ] GC(27) Pause Young (Allocation Failure)
+[2025-01-26T07:28:00.676+0000][17.366s][info][gc,task      ] GC(27) Using 5 workers of 5 for evacuation
+[2025-01-26T07:28:00.697+0000][17.387s][info][gc,heap      ] GC(27) ParNew: 9702K->957K(9792K)
+[2025-01-26T07:28:00.697+0000][17.388s][info][gc,heap      ] GC(27) CMS: 12055K->12680K(21888K)
+[2025-01-26T07:28:00.698+0000][17.388s][info][gc,metaspace ] GC(27) Metaspace: 40143K(41908K)->40143K(41908K) NonClass: 35479K(36532K)->35479K(36532K) Class: 4663K(5376K)->4663K(5376K)
+[2025-01-26T07:28:00.699+0000][17.389s][info][gc           ] GC(27) Pause Young (Allocation Failure) 21M->13M(30M) 23.403ms
+[2025-01-26T07:28:00.699+0000][17.389s][info][gc,cpu       ] GC(27) User=0.10s Sys=0.00s Real=0.03s
+[2025-01-26T07:28:01.154+0000][17.844s][info][gc,start     ] GC(28) Pause Young (Allocation Failure)
+[2025-01-26T07:28:01.155+0000][17.846s][info][gc,task      ] GC(28) Using 5 workers of 5 for evacuation
+[2025-01-26T07:28:01.167+0000][17.857s][info][gc,heap      ] GC(28) ParNew: 9661K->1040K(9792K)
+[2025-01-26T07:28:01.167+0000][17.858s][info][gc,heap      ] GC(28) CMS: 12680K->13305K(21888K)
+[2025-01-26T07:28:01.168+0000][17.858s][info][gc,metaspace ] GC(28) Metaspace: 41097K(42804K)->41097K(42804K) NonClass: 36303K(37300K)->36303K(37300K) Class: 4793K(5504K)->4793K(5504K)
+[2025-01-26T07:28:01.169+0000][17.859s][info][gc           ] GC(28) Pause Young (Allocation Failure) 21M->14M(30M) 14.296ms
+[2025-01-26T07:28:01.169+0000][17.859s][info][gc,cpu       ] GC(28) User=0.03s Sys=0.01s Real=0.02s
+[2025-01-26T07:28:01.862+0000][18.552s][info][gc,start     ] GC(29) Pause Young (Allocation Failure)
+[2025-01-26T07:28:01.863+0000][18.553s][info][gc,task      ] GC(29) Using 5 workers of 5 for evacuation
+[2025-01-26T07:28:01.877+0000][18.567s][info][gc,heap      ] GC(29) ParNew: 9744K->1026K(9792K)
+[2025-01-26T07:28:01.878+0000][18.568s][info][gc,heap      ] GC(29) CMS: 13305K->13925K(21888K)
+[2025-01-26T07:28:01.878+0000][18.568s][info][gc,metaspace ] GC(29) Metaspace: 42115K(43956K)->42115K(43956K) NonClass: 37175K(38324K)->37175K(38324K) Class: 4940K(5632K)->4940K(5632K)
+[2025-01-26T07:28:01.878+0000][18.569s][info][gc           ] GC(29) Pause Young (Allocation Failure) 22M->14M(30M) 16.541ms
+[2025-01-26T07:28:01.879+0000][18.569s][info][gc,cpu       ] GC(29) User=0.06s Sys=0.00s Real=0.02s
+[2025-01-26T07:28:03.738+0000][20.429s][info][gc,start     ] GC(30) Pause Young (Allocation Failure)
+[2025-01-26T07:28:03.742+0000][20.432s][info][gc,task      ] GC(30) Using 5 workers of 5 for evacuation
+[2025-01-26T07:28:03.779+0000][20.469s][info][gc,heap      ] GC(30) ParNew: 9730K->1025K(9792K)
+[2025-01-26T07:28:03.779+0000][20.469s][info][gc,heap      ] GC(30) CMS: 13925K->14678K(21888K)
+[2025-01-26T07:28:03.780+0000][20.470s][info][gc,metaspace ] GC(30) Metaspace: 42999K(44852K)->42999K(44852K) NonClass: 37937K(39092K)->37937K(39092K) Class: 5062K(5760K)->5062K(5760K)
+[2025-01-26T07:28:03.781+0000][20.471s][info][gc           ] GC(30) Pause Young (Allocation Failure) 23M->15M(30M) 42.944ms
+[2025-01-26T07:28:03.781+0000][20.472s][info][gc,cpu       ] GC(30) User=0.16s Sys=0.01s Real=0.05s
+[2025-01-26T07:29:19.138+0000][95.829s][info][gc,start     ] GC(31) Pause Young (Allocation Failure)
+[2025-01-26T07:29:19.140+0000][95.830s][info][gc,task      ] GC(31) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:19.162+0000][95.853s][info][gc,heap      ] GC(31) ParNew: 9729K->737K(9792K)
+[2025-01-26T07:29:19.163+0000][95.854s][info][gc,heap      ] GC(31) CMS: 14678K->15389K(21888K)
+[2025-01-26T07:29:19.164+0000][95.855s][info][gc,metaspace ] GC(31) Metaspace: 43607K(45492K)->43607K(45492K) NonClass: 38480K(39604K)->38480K(39604K) Class: 5127K(5888K)->5127K(5888K)
+[2025-01-26T07:29:19.165+0000][95.856s][info][gc           ] GC(31) Pause Young (Allocation Failure) 23M->15M(30M) 26.540ms
+[2025-01-26T07:29:19.166+0000][95.856s][info][gc,cpu       ] GC(31) User=0.10s Sys=0.00s Real=0.02s
+[2025-01-26T07:29:33.595+0000][110.284s][info][gc,start     ] GC(32) Pause Young (Allocation Failure)
+[2025-01-26T07:29:33.596+0000][110.285s][info][gc,task      ] GC(32) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:33.601+0000][110.290s][info][gc,heap      ] GC(32) ParNew: 9441K->740K(9792K)
+[2025-01-26T07:29:33.602+0000][110.291s][info][gc,heap      ] GC(32) CMS: 15389K->15389K(21888K)
+[2025-01-26T07:29:33.603+0000][110.291s][info][gc,metaspace ] GC(32) Metaspace: 44420K(46388K)->44420K(46388K) NonClass: 39211K(40372K)->39211K(40372K) Class: 5208K(6016K)->5208K(6016K)
+[2025-01-26T07:29:33.603+0000][110.292s][info][gc           ] GC(32) Pause Young (Allocation Failure) 24M->15M(30M) 8.115ms
+[2025-01-26T07:29:33.604+0000][110.292s][info][gc,cpu       ] GC(32) User=0.02s Sys=0.01s Real=0.01s
+[2025-01-26T07:29:33.908+0000][110.597s][info][gc,start     ] GC(33) Pause Young (Allocation Failure)
+[2025-01-26T07:29:33.909+0000][110.598s][info][gc,task      ] GC(33) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:33.916+0000][110.604s][info][gc,start     ] GC(34) Pause Full (Allocation Failure)
+[2025-01-26T07:29:33.918+0000][110.607s][info][gc,phases,start] GC(34) Phase 1: Mark live objects
+[2025-01-26T07:29:34.001+0000][110.690s][info][gc,phases      ] GC(34) Phase 1: Mark live objects 82.789ms
+[2025-01-26T07:29:34.002+0000][110.691s][info][gc,phases,start] GC(34) Phase 2: Compute new object addresses
+[2025-01-26T07:29:34.052+0000][110.740s][info][gc,phases      ] GC(34) Phase 2: Compute new object addresses 49.462ms
+[2025-01-26T07:29:34.052+0000][110.741s][info][gc,phases,start] GC(34) Phase 3: Adjust pointers
+[2025-01-26T07:29:34.157+0000][110.845s][info][gc,phases      ] GC(34) Phase 3: Adjust pointers 104.154ms
+[2025-01-26T07:29:34.157+0000][110.846s][info][gc,phases,start] GC(34) Phase 4: Move objects
+[2025-01-26T07:29:34.192+0000][110.880s][info][gc,phases      ] GC(34) Phase 4: Move objects 34.219ms
+[2025-01-26T07:29:34.196+0000][110.884s][info][gc             ] GC(34) Pause Full (Allocation Failure) 15M->13M(30M) 280.059ms
+[2025-01-26T07:29:34.196+0000][110.885s][info][gc,heap        ] GC(33) ParNew: 5421K->0K(9792K)
+[2025-01-26T07:29:34.197+0000][110.885s][info][gc,heap        ] GC(33) CMS: 15389K->14231K(21888K)
+[2025-01-26T07:29:34.197+0000][110.886s][info][gc,metaspace   ] GC(33) Metaspace: 45138K(47156K)->45138K(47156K) NonClass: 39846K(41140K)->39846K(41140K) Class: 5291K(6016K)->5291K(6016K)
+[2025-01-26T07:29:34.199+0000][110.888s][info][gc             ] GC(33) Pause Young (Allocation Failure) 20M->13M(33M) 290.493ms
+[2025-01-26T07:29:34.199+0000][110.888s][info][gc,cpu         ] GC(33) User=0.30s Sys=0.01s Real=0.29s
+[2025-01-26T07:29:34.202+0000][110.891s][info][gc,start       ] GC(35) Pause Full (Allocation Failure)
+[2025-01-26T07:29:34.204+0000][110.892s][info][gc,phases,start] GC(35) Phase 1: Mark live objects
+[2025-01-26T07:29:34.306+0000][110.995s][info][gc,phases      ] GC(35) Phase 1: Mark live objects 102.445ms
+[2025-01-26T07:29:34.307+0000][110.996s][info][gc,phases,start] GC(35) Phase 2: Compute new object addresses
+[2025-01-26T07:29:34.349+0000][111.037s][info][gc,phases      ] GC(35) Phase 2: Compute new object addresses 41.746ms
+[2025-01-26T07:29:34.350+0000][111.038s][info][gc,phases,start] GC(35) Phase 3: Adjust pointers
+[2025-01-26T07:29:34.403+0000][111.091s][info][gc,phases      ] GC(35) Phase 3: Adjust pointers 52.910ms
+[2025-01-26T07:29:34.403+0000][111.092s][info][gc,phases,start] GC(35) Phase 4: Move objects
+[2025-01-26T07:29:34.430+0000][111.119s][info][gc,phases      ] GC(35) Phase 4: Move objects 26.611ms
+[2025-01-26T07:29:34.432+0000][111.121s][info][gc,heap        ] GC(35) ParNew: 0K->0K(10752K)
+[2025-01-26T07:29:34.433+0000][111.121s][info][gc,heap        ] GC(35) CMS: 14231K->11523K(349568K)
+[2025-01-26T07:29:34.433+0000][111.122s][info][gc,metaspace   ] GC(35) Metaspace: 45138K(47156K)->45138K(47156K) NonClass: 39846K(41140K)->39846K(41140K) Class: 5291K(6016K)->5291K(6016K)
+[2025-01-26T07:29:34.437+0000][111.126s][info][gc             ] GC(35) Pause Full (Allocation Failure) 13M->11M(494M) 234.938ms
+[2025-01-26T07:29:34.437+0000][111.126s][info][gc,cpu         ] GC(35) User=0.23s Sys=0.00s Real=0.23s
+[2025-01-26T07:29:46.238+0000][122.927s][info][gc,start       ] GC(36) Pause Young (Allocation Failure)
+[2025-01-26T07:29:46.242+0000][122.930s][info][gc,task        ] GC(36) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:46.267+0000][122.955s][info][gc,start       ] GC(37) Pause Full (Allocation Failure)
+[2025-01-26T07:29:46.270+0000][122.959s][info][gc,phases,start] GC(37) Phase 1: Mark live objects
+[2025-01-26T07:29:46.336+0000][123.025s][info][gc,phases      ] GC(37) Phase 1: Mark live objects 65.865ms
+[2025-01-26T07:29:46.337+0000][123.026s][info][gc,phases,start] GC(37) Phase 2: Compute new object addresses
+[2025-01-26T07:29:46.377+0000][123.066s][info][gc,phases      ] GC(37) Phase 2: Compute new object addresses 39.480ms
+[2025-01-26T07:29:46.378+0000][123.067s][info][gc,phases,start] GC(37) Phase 3: Adjust pointers
+[2025-01-26T07:29:46.440+0000][123.128s][info][gc,phases      ] GC(37) Phase 3: Adjust pointers 61.593ms
+[2025-01-26T07:29:46.441+0000][123.129s][info][gc,phases,start] GC(37) Phase 4: Move objects
+[2025-01-26T07:29:46.468+0000][123.157s][info][gc,phases      ] GC(37) Phase 4: Move objects 27.303ms
+[2025-01-26T07:29:46.471+0000][123.159s][info][gc             ] GC(37) Pause Full (Allocation Failure) 12M->11M(494M) 204.051ms
+[2025-01-26T07:29:46.471+0000][123.160s][info][gc,heap        ] GC(36) ParNew: 10023K->0K(157248K)
+[2025-01-26T07:29:46.472+0000][123.160s][info][gc,heap        ] GC(36) CMS: 11523K->12019K(349568K)
+[2025-01-26T07:29:46.472+0000][123.161s][info][gc,metaspace   ] GC(36) Metaspace: 44899K(47540K)->44899K(47540K) NonClass: 39698K(41396K)->39698K(41396K) Class: 5201K(6144K)->5201K(6144K)
+[2025-01-26T07:29:46.475+0000][123.163s][info][gc             ] GC(36) Pause Young (Allocation Failure) 21M->11M(451M) 236.891ms
+[2025-01-26T07:29:46.475+0000][123.164s][info][gc,cpu         ] GC(36) User=0.27s Sys=0.02s Real=0.24s
+[2025-01-26T07:29:46.477+0000][123.165s][info][gc,start       ] GC(38) Pause Full (Allocation Failure)
+[2025-01-26T07:29:46.478+0000][123.167s][info][gc,phases,start] GC(38) Phase 1: Mark live objects
+[2025-01-26T07:29:46.570+0000][123.258s][info][gc,phases      ] GC(38) Phase 1: Mark live objects 91.700ms
+[2025-01-26T07:29:46.571+0000][123.259s][info][gc,phases,start] GC(38) Phase 2: Compute new object addresses
+[2025-01-26T07:29:46.610+0000][123.298s][info][gc,phases      ] GC(38) Phase 2: Compute new object addresses 39.109ms
+[2025-01-26T07:29:46.610+0000][123.299s][info][gc,phases,start] GC(38) Phase 3: Adjust pointers
+[2025-01-26T07:29:46.665+0000][123.354s][info][gc,phases      ] GC(38) Phase 3: Adjust pointers 54.685ms
+[2025-01-26T07:29:46.666+0000][123.355s][info][gc,phases,start] GC(38) Phase 4: Move objects
+[2025-01-26T07:29:46.690+0000][123.378s][info][gc,phases      ] GC(38) Phase 4: Move objects 23.453ms
+[2025-01-26T07:29:46.692+0000][123.380s][info][gc,heap        ] GC(38) ParNew: 0K->0K(143424K)
+[2025-01-26T07:29:46.692+0000][123.381s][info][gc,heap        ] GC(38) CMS: 12019K->11571K(349568K)
+[2025-01-26T07:29:46.693+0000][123.381s][info][gc,metaspace   ] GC(38) Metaspace: 44899K(47540K)->44899K(47540K) NonClass: 39698K(41396K)->39698K(41396K) Class: 5201K(6144K)->5201K(6144K)
+[2025-01-26T07:29:46.695+0000][123.384s][info][gc             ] GC(38) Pause Full (Allocation Failure) 11M->11M(318M) 218.382ms
+[2025-01-26T07:29:46.696+0000][123.384s][info][gc,cpu         ] GC(38) User=0.21s Sys=0.00s Real=0.22s
+[2025-01-26T07:29:47.291+0000][123.979s][info][gc,start       ] GC(39) Pause Young (Allocation Failure)
+[2025-01-26T07:29:47.291+0000][123.980s][info][gc,task        ] GC(39) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:47.307+0000][123.995s][info][gc,start       ] GC(40) Pause Full (Allocation Failure)
+[2025-01-26T07:29:47.308+0000][123.997s][info][gc,phases,start] GC(40) Phase 1: Mark live objects
+[2025-01-26T07:29:47.371+0000][124.060s][info][gc,phases      ] GC(40) Phase 1: Mark live objects 62.663ms
+[2025-01-26T07:29:47.372+0000][124.060s][info][gc,phases,start] GC(40) Phase 2: Compute new object addresses
+[2025-01-26T07:29:47.410+0000][124.099s][info][gc,phases      ] GC(40) Phase 2: Compute new object addresses 38.715ms
+[2025-01-26T07:29:47.411+0000][124.100s][info][gc,phases,start] GC(40) Phase 3: Adjust pointers
+[2025-01-26T07:29:47.475+0000][124.164s][info][gc,phases      ] GC(40) Phase 3: Adjust pointers 64.254ms
+[2025-01-26T07:29:47.476+0000][124.165s][info][gc,phases,start] GC(40) Phase 4: Move objects
+[2025-01-26T07:29:47.497+0000][124.186s][info][gc,phases      ] GC(40) Phase 4: Move objects 21.205ms
+[2025-01-26T07:29:47.499+0000][124.188s][info][gc             ] GC(40) Pause Full (Allocation Failure) 12M->11M(318M) 192.557ms
+[2025-01-26T07:29:47.500+0000][124.188s][info][gc,heap        ] GC(39) ParNew: 1976K->0K(101376K)
+[2025-01-26T07:29:47.501+0000][124.189s][info][gc,heap        ] GC(39) CMS: 11571K->11743K(225172K)
+[2025-01-26T07:29:47.501+0000][124.190s][info][gc,metaspace   ] GC(39) Metaspace: 44870K(47540K)->44870K(47540K) NonClass: 39673K(41396K)->39673K(41396K) Class: 5196K(6144K)->5196K(6144K)
+[2025-01-26T07:29:47.503+0000][124.191s][info][gc             ] GC(39) Pause Young (Allocation Failure) 13M->11M(55M) 211.940ms
+[2025-01-26T07:29:47.503+0000][124.192s][info][gc,cpu         ] GC(39) User=0.28s Sys=0.01s Real=0.21s
+[2025-01-26T07:29:47.505+0000][124.194s][info][gc,start       ] GC(41) Pause Full (Allocation Failure)
+[2025-01-26T07:29:47.507+0000][124.195s][info][gc,phases,start] GC(41) Phase 1: Mark live objects
+[2025-01-26T07:29:47.591+0000][124.279s][info][gc,phases      ] GC(41) Phase 1: Mark live objects 83.914ms
+[2025-01-26T07:29:47.591+0000][124.280s][info][gc,phases,start] GC(41) Phase 2: Compute new object addresses
+[2025-01-26T07:29:47.633+0000][124.321s][info][gc,phases      ] GC(41) Phase 2: Compute new object addresses 41.366ms
+[2025-01-26T07:29:47.634+0000][124.322s][info][gc,phases,start] GC(41) Phase 3: Adjust pointers
+[2025-01-26T07:29:47.685+0000][124.373s][info][gc,phases      ] GC(41) Phase 3: Adjust pointers 51.045ms
+[2025-01-26T07:29:47.685+0000][124.374s][info][gc,phases,start] GC(41) Phase 4: Move objects
+[2025-01-26T07:29:47.686+0000][124.375s][info][gc,phases      ] GC(41) Phase 4: Move objects 0.680ms
+[2025-01-26T07:29:47.688+0000][124.377s][info][gc,heap        ] GC(41) ParNew: 0K->0K(17728K)
+[2025-01-26T07:29:47.689+0000][124.377s][info][gc,heap        ] GC(41) CMS: 11743K->11574K(349568K)
+[2025-01-26T07:29:47.689+0000][124.378s][info][gc,metaspace   ] GC(41) Metaspace: 44870K(47540K)->44870K(47540K) NonClass: 39673K(41396K)->39673K(41396K) Class: 5196K(6144K)->5196K(6144K)
+[2025-01-26T07:29:47.691+0000][124.380s][info][gc             ] GC(41) Pause Full (Allocation Failure) 11M->11M(54M) 185.977ms
+[2025-01-26T07:29:47.691+0000][124.380s][info][gc,cpu         ] GC(41) User=0.18s Sys=0.00s Real=0.19s
+[2025-01-26T07:29:48.246+0000][124.934s][info][gc,start       ] GC(42) Pause Young (Allocation Failure)
+[2025-01-26T07:29:48.247+0000][124.935s][info][gc,task        ] GC(42) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:48.252+0000][124.940s][info][gc,start       ] GC(43) Pause Full (Allocation Failure)
+[2025-01-26T07:29:48.253+0000][124.942s][info][gc,phases,start] GC(43) Phase 1: Mark live objects
+[2025-01-26T07:29:48.346+0000][125.034s][info][gc,phases      ] GC(43) Phase 1: Mark live objects 92.183ms
+[2025-01-26T07:29:48.346+0000][125.035s][info][gc,phases,start] GC(43) Phase 2: Compute new object addresses
+[2025-01-26T07:29:48.388+0000][125.077s][info][gc,phases      ] GC(43) Phase 2: Compute new object addresses 41.987ms
+[2025-01-26T07:29:48.389+0000][125.078s][info][gc,phases,start] GC(43) Phase 3: Adjust pointers
+[2025-01-26T07:29:48.453+0000][125.141s][info][gc,phases      ] GC(43) Phase 3: Adjust pointers 63.735ms
+[2025-01-26T07:29:48.454+0000][125.142s][info][gc,phases,start] GC(43) Phase 4: Move objects
+[2025-01-26T07:29:48.457+0000][125.145s][info][gc,phases      ] GC(43) Phase 4: Move objects 3.106ms
+[2025-01-26T07:29:48.458+0000][125.147s][info][gc             ] GC(43) Pause Full (Allocation Failure) 11M->11M(54M) 206.717ms
+[2025-01-26T07:29:48.459+0000][125.147s][info][gc,heap        ] GC(42) ParNew: 1420K->0K(17408K)
+[2025-01-26T07:29:48.459+0000][125.148s][info][gc,heap        ] GC(42) CMS: 11574K->11965K(38584K)
+[2025-01-26T07:29:48.460+0000][125.148s][info][gc,metaspace   ] GC(42) Metaspace: 44907K(47540K)->44907K(47540K) NonClass: 39708K(41396K)->39708K(41396K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:29:48.460+0000][125.149s][info][gc             ] GC(42) Pause Young (Allocation Failure) 12M->11M(54M) 214.332ms
+[2025-01-26T07:29:48.461+0000][125.149s][info][gc,cpu         ] GC(42) User=0.22s Sys=0.00s Real=0.22s
+[2025-01-26T07:29:48.463+0000][125.151s][info][gc,start       ] GC(44) Pause Full (Allocation Failure)
+[2025-01-26T07:29:48.465+0000][125.153s][info][gc,phases,start] GC(44) Phase 1: Mark live objects
+[2025-01-26T07:29:48.550+0000][125.239s][info][gc,phases      ] GC(44) Phase 1: Mark live objects 85.115ms
+[2025-01-26T07:29:48.551+0000][125.239s][info][gc,phases,start] GC(44) Phase 2: Compute new object addresses
+[2025-01-26T07:29:48.592+0000][125.281s][info][gc,phases      ] GC(44) Phase 2: Compute new object addresses 41.690ms
+[2025-01-26T07:29:48.593+0000][125.282s][info][gc,phases,start] GC(44) Phase 3: Adjust pointers
+[2025-01-26T07:29:48.645+0000][125.333s][info][gc,phases      ] GC(44) Phase 3: Adjust pointers 51.604ms
+[2025-01-26T07:29:48.646+0000][125.334s][info][gc,phases,start] GC(44) Phase 4: Move objects
+[2025-01-26T07:29:48.646+0000][125.335s][info][gc,phases      ] GC(44) Phase 4: Move objects 0.694ms
+[2025-01-26T07:29:48.648+0000][125.337s][info][gc,heap        ] GC(44) ParNew: 0K->0K(17408K)
+[2025-01-26T07:29:48.648+0000][125.337s][info][gc,heap        ] GC(44) CMS: 11965K->11704K(349568K)
+[2025-01-26T07:29:48.649+0000][125.337s][info][gc,metaspace   ] GC(44) Metaspace: 44899K(47540K)->44899K(47540K) NonClass: 39701K(41396K)->39701K(41396K) Class: 5197K(6144K)->5197K(6144K)
+[2025-01-26T07:29:48.650+0000][125.339s][info][gc             ] GC(44) Pause Full (Allocation Failure) 11M->11M(494M) 187.616ms
+[2025-01-26T07:29:48.651+0000][125.339s][info][gc,cpu         ] GC(44) User=0.18s Sys=0.00s Real=0.19s
+[2025-01-26T07:29:49.145+0000][125.834s][info][gc,start       ] GC(45) Pause Young (Allocation Failure)
+[2025-01-26T07:29:49.146+0000][125.835s][info][gc,task        ] GC(45) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:49.152+0000][125.840s][info][gc,start       ] GC(46) Pause Full (Allocation Failure)
+[2025-01-26T07:29:49.154+0000][125.842s][info][gc,phases,start] GC(46) Phase 1: Mark live objects
+[2025-01-26T07:29:49.219+0000][125.907s][info][gc,phases      ] GC(46) Phase 1: Mark live objects 65.074ms
+[2025-01-26T07:29:49.219+0000][125.908s][info][gc,phases,start] GC(46) Phase 2: Compute new object addresses
+[2025-01-26T07:29:49.258+0000][125.947s][info][gc,phases      ] GC(46) Phase 2: Compute new object addresses 38.830ms
+[2025-01-26T07:29:49.259+0000][125.948s][info][gc,phases,start] GC(46) Phase 3: Adjust pointers
+[2025-01-26T07:29:49.327+0000][126.016s][info][gc,phases      ] GC(46) Phase 3: Adjust pointers 68.257ms
+[2025-01-26T07:29:49.328+0000][126.017s][info][gc,phases,start] GC(46) Phase 4: Move objects
+[2025-01-26T07:29:49.353+0000][126.041s][info][gc,phases      ] GC(46) Phase 4: Move objects 24.617ms
+[2025-01-26T07:29:49.355+0000][126.043s][info][gc             ] GC(46) Pause Full (Allocation Failure) 12M->11M(494M) 203.084ms
+[2025-01-26T07:29:49.355+0000][126.044s][info][gc,heap        ] GC(45) ParNew: 4231K->0K(157248K)
+[2025-01-26T07:29:49.356+0000][126.044s][info][gc,heap        ] GC(45) CMS: 11704K->12132K(349568K)
+[2025-01-26T07:29:49.356+0000][126.045s][info][gc,metaspace   ] GC(45) Metaspace: 44929K(47540K)->44929K(47540K) NonClass: 39730K(41396K)->39730K(41396K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:29:49.357+0000][126.046s][info][gc             ] GC(45) Pause Young (Allocation Failure) 15M->11M(451M) 211.823ms
+[2025-01-26T07:29:49.358+0000][126.046s][info][gc,cpu         ] GC(45) User=0.21s Sys=0.00s Real=0.21s
+[2025-01-26T07:29:49.359+0000][126.047s][info][gc,start       ] GC(47) Pause Full (Allocation Failure)
+[2025-01-26T07:29:49.360+0000][126.049s][info][gc,phases,start] GC(47) Phase 1: Mark live objects
+[2025-01-26T07:29:49.441+0000][126.130s][info][gc,phases      ] GC(47) Phase 1: Mark live objects 80.929ms
+[2025-01-26T07:29:49.442+0000][126.130s][info][gc,phases,start] GC(47) Phase 2: Compute new object addresses
+[2025-01-26T07:29:49.483+0000][126.171s][info][gc,phases      ] GC(47) Phase 2: Compute new object addresses 41.002ms
+[2025-01-26T07:29:49.484+0000][126.172s][info][gc,phases,start] GC(47) Phase 3: Adjust pointers
+[2025-01-26T07:29:49.536+0000][126.225s][info][gc,phases      ] GC(47) Phase 3: Adjust pointers 52.810ms
+[2025-01-26T07:29:49.537+0000][126.226s][info][gc,phases,start] GC(47) Phase 4: Move objects
+[2025-01-26T07:29:49.539+0000][126.227s][info][gc,phases      ] GC(47) Phase 4: Move objects 1.288ms
+[2025-01-26T07:29:49.541+0000][126.229s][info][gc,heap        ] GC(47) ParNew: 0K->0K(143424K)
+[2025-01-26T07:29:49.541+0000][126.230s][info][gc,heap        ] GC(47) CMS: 12132K->11809K(349568K)
+[2025-01-26T07:29:49.542+0000][126.230s][info][gc,metaspace   ] GC(47) Metaspace: 44929K(47540K)->44929K(47540K) NonClass: 39730K(41396K)->39730K(41396K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:29:49.544+0000][126.232s][info][gc             ] GC(47) Pause Full (Allocation Failure) 11M->11M(319M) 185.121ms
+[2025-01-26T07:29:49.544+0000][126.233s][info][gc,cpu         ] GC(47) User=0.18s Sys=0.00s Real=0.19s
+[2025-01-26T07:29:59.700+0000][136.391s][info][gc,start       ] GC(48) Pause Young (Allocation Failure)
+[2025-01-26T07:29:59.702+0000][136.392s][info][gc,task        ] GC(48) Using 5 workers of 5 for evacuation
+[2025-01-26T07:29:59.708+0000][136.398s][info][gc,start       ] GC(49) Pause Full (Allocation Failure)
+[2025-01-26T07:29:59.710+0000][136.400s][info][gc,phases,start] GC(49) Phase 1: Mark live objects
+[2025-01-26T07:29:59.782+0000][136.472s][info][gc,phases      ] GC(49) Phase 1: Mark live objects 72.012ms
+[2025-01-26T07:29:59.783+0000][136.473s][info][gc,phases,start] GC(49) Phase 2: Compute new object addresses
+[2025-01-26T07:29:59.824+0000][136.515s][info][gc,phases      ] GC(49) Phase 2: Compute new object addresses 41.277ms
+[2025-01-26T07:29:59.825+0000][136.516s][info][gc,phases,start] GC(49) Phase 3: Adjust pointers
+[2025-01-26T07:29:59.894+0000][136.585s][info][gc,phases      ] GC(49) Phase 3: Adjust pointers 69.159ms
+[2025-01-26T07:29:59.895+0000][136.586s][info][gc,phases,start] GC(49) Phase 4: Move objects
+[2025-01-26T07:29:59.898+0000][136.588s][info][gc,phases      ] GC(49) Phase 4: Move objects 2.755ms
+[2025-01-26T07:29:59.900+0000][136.590s][info][gc             ] GC(49) Pause Full (Allocation Failure) 12M->11M(319M) 192.350ms
+[2025-01-26T07:29:59.901+0000][136.591s][info][gc,heap        ] GC(48) ParNew: 5697K->0K(101504K)
+[2025-01-26T07:29:59.901+0000][136.591s][info][gc,heap        ] GC(48) CMS: 11809K->12131K(225488K)
+[2025-01-26T07:29:59.901+0000][136.592s][info][gc,metaspace   ] GC(48) Metaspace: 44976K(47540K)->44976K(47540K) NonClass: 39777K(41396K)->39777K(41396K) Class: 5199K(6144K)->5199K(6144K)
+[2025-01-26T07:29:59.903+0000][136.593s][info][gc             ] GC(48) Pause Young (Allocation Failure) 17M->11M(57M) 202.487ms
+[2025-01-26T07:29:59.903+0000][136.594s][info][gc,cpu         ] GC(48) User=0.20s Sys=0.01s Real=0.20s
+[2025-01-26T07:29:59.905+0000][136.596s][info][gc,start       ] GC(50) Pause Full (Allocation Failure)
+[2025-01-26T07:29:59.907+0000][136.597s][info][gc,phases,start] GC(50) Phase 1: Mark live objects
+[2025-01-26T07:29:59.996+0000][136.686s][info][gc,phases      ] GC(50) Phase 1: Mark live objects 89.005ms
+[2025-01-26T07:29:59.997+0000][136.687s][info][gc,phases,start] GC(50) Phase 2: Compute new object addresses
+[2025-01-26T07:30:00.039+0000][136.730s][info][gc,phases      ] GC(50) Phase 2: Compute new object addresses 42.531ms
+[2025-01-26T07:30:00.040+0000][136.730s][info][gc,phases,start] GC(50) Phase 3: Adjust pointers
+[2025-01-26T07:30:00.092+0000][136.783s][info][gc,phases      ] GC(50) Phase 3: Adjust pointers 52.590ms
+[2025-01-26T07:30:00.093+0000][136.784s][info][gc,phases,start] GC(50) Phase 4: Move objects
+[2025-01-26T07:30:00.094+0000][136.784s][info][gc,phases      ] GC(50) Phase 4: Move objects 0.733ms
+[2025-01-26T07:30:00.096+0000][136.786s][info][gc,heap        ] GC(50) ParNew: 0K->0K(18304K)
+[2025-01-26T07:30:00.096+0000][136.787s][info][gc,heap        ] GC(50) CMS: 12131K->11795K(349568K)
+[2025-01-26T07:30:00.097+0000][136.787s][info][gc,metaspace   ] GC(50) Metaspace: 44976K(47540K)->44976K(47540K) NonClass: 39777K(41396K)->39777K(41396K) Class: 5199K(6144K)->5199K(6144K)
+[2025-01-26T07:30:00.098+0000][136.789s][info][gc             ] GC(50) Pause Full (Allocation Failure) 11M->11M(55M) 192.979ms
+[2025-01-26T07:30:00.099+0000][136.789s][info][gc,cpu         ] GC(50) User=0.19s Sys=0.00s Real=0.20s
+[2025-01-26T07:30:00.757+0000][137.448s][info][gc,start       ] GC(51) Pause Young (Allocation Failure)
+[2025-01-26T07:30:00.759+0000][137.450s][info][gc,task        ] GC(51) Using 5 workers of 5 for evacuation
+[2025-01-26T07:30:00.765+0000][137.455s][info][gc,start       ] GC(52) Pause Full (Allocation Failure)
+[2025-01-26T07:30:00.767+0000][137.458s][info][gc,phases,start] GC(52) Phase 1: Mark live objects
+[2025-01-26T07:30:00.872+0000][137.563s][info][gc,phases      ] GC(52) Phase 1: Mark live objects 105.132ms
+[2025-01-26T07:30:00.873+0000][137.564s][info][gc,phases,start] GC(52) Phase 2: Compute new object addresses
+[2025-01-26T07:30:00.914+0000][137.605s][info][gc,phases      ] GC(52) Phase 2: Compute new object addresses 41.169ms
+[2025-01-26T07:30:00.915+0000][137.606s][info][gc,phases,start] GC(52) Phase 3: Adjust pointers
+[2025-01-26T07:30:00.979+0000][137.670s][info][gc,phases      ] GC(52) Phase 3: Adjust pointers 64.362ms
+[2025-01-26T07:30:00.980+0000][137.671s][info][gc,phases,start] GC(52) Phase 4: Move objects
+[2025-01-26T07:30:00.984+0000][137.674s][info][gc,phases      ] GC(52) Phase 4: Move objects 3.504ms
+[2025-01-26T07:30:00.986+0000][137.676s][info][gc             ] GC(52) Pause Full (Allocation Failure) 12M->11M(55M) 220.607ms
+[2025-01-26T07:30:00.986+0000][137.677s][info][gc,heap        ] GC(51) ParNew: 1764K->0K(17792K)
+[2025-01-26T07:30:00.987+0000][137.677s][info][gc,heap        ] GC(51) CMS: 11795K->12135K(39320K)
+[2025-01-26T07:30:00.987+0000][137.678s][info][gc,metaspace   ] GC(51) Metaspace: 45008K(47540K)->45008K(47540K) NonClass: 39808K(41396K)->39808K(41396K) Class: 5200K(6144K)->5200K(6144K)
+[2025-01-26T07:30:00.988+0000][137.678s][info][gc             ] GC(51) Pause Young (Allocation Failure) 13M->11M(55M) 230.689ms
+[2025-01-26T07:30:00.988+0000][137.679s][info][gc,cpu         ] GC(51) User=0.23s Sys=0.00s Real=0.24s
+[2025-01-26T07:30:00.990+0000][137.681s][info][gc,start       ] GC(53) Pause Full (Allocation Failure)
+[2025-01-26T07:30:00.991+0000][137.682s][info][gc,phases,start] GC(53) Phase 1: Mark live objects
+[2025-01-26T07:30:01.074+0000][137.765s][info][gc,phases      ] GC(53) Phase 1: Mark live objects 83.017ms
+[2025-01-26T07:30:01.075+0000][137.766s][info][gc,phases,start] GC(53) Phase 2: Compute new object addresses
+[2025-01-26T07:30:01.117+0000][137.808s][info][gc,phases      ] GC(53) Phase 2: Compute new object addresses 41.944ms
+[2025-01-26T07:30:01.118+0000][137.808s][info][gc,phases,start] GC(53) Phase 3: Adjust pointers
+[2025-01-26T07:30:01.171+0000][137.861s][info][gc,phases      ] GC(53) Phase 3: Adjust pointers 52.954ms
+[2025-01-26T07:30:01.172+0000][137.862s][info][gc,phases,start] GC(53) Phase 4: Move objects
+[2025-01-26T07:30:01.172+0000][137.863s][info][gc,phases      ] GC(53) Phase 4: Move objects 0.620ms
+[2025-01-26T07:30:01.174+0000][137.864s][info][gc,heap        ] GC(53) ParNew: 0K->0K(17792K)
+[2025-01-26T07:30:01.174+0000][137.865s][info][gc,heap        ] GC(53) CMS: 12135K->11801K(349568K)
+[2025-01-26T07:30:01.175+0000][137.865s][info][gc,metaspace   ] GC(53) Metaspace: 44997K(47540K)->44997K(47540K) NonClass: 39798K(41396K)->39798K(41396K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:30:01.176+0000][137.867s][info][gc             ] GC(53) Pause Full (Allocation Failure) 11M->11M(494M) 185.885ms
+[2025-01-26T07:30:01.177+0000][137.867s][info][gc,cpu         ] GC(53) User=0.19s Sys=0.00s Real=0.18s
+[2025-01-26T07:30:01.867+0000][138.557s][info][gc,start       ] GC(54) Pause Young (Allocation Failure)
+[2025-01-26T07:30:01.869+0000][138.559s][info][gc,task        ] GC(54) Using 5 workers of 5 for evacuation
+[2025-01-26T07:30:01.879+0000][138.570s][info][gc,start       ] GC(55) Pause Full (Allocation Failure)
+[2025-01-26T07:30:01.881+0000][138.572s][info][gc,phases,start] GC(55) Phase 1: Mark live objects
+[2025-01-26T07:30:01.976+0000][138.667s][info][gc,phases      ] GC(55) Phase 1: Mark live objects 94.839ms
+[2025-01-26T07:30:01.977+0000][138.667s][info][gc,phases,start] GC(55) Phase 2: Compute new object addresses
+[2025-01-26T07:30:02.019+0000][138.710s][info][gc,phases      ] GC(55) Phase 2: Compute new object addresses 42.188ms
+[2025-01-26T07:30:02.020+0000][138.710s][info][gc,phases,start] GC(55) Phase 3: Adjust pointers
+[2025-01-26T07:30:02.084+0000][138.775s][info][gc,phases      ] GC(55) Phase 3: Adjust pointers 64.465ms
+[2025-01-26T07:30:02.085+0000][138.776s][info][gc,phases,start] GC(55) Phase 4: Move objects
+[2025-01-26T07:30:02.089+0000][138.779s][info][gc,phases      ] GC(55) Phase 4: Move objects 3.430ms
+[2025-01-26T07:30:02.090+0000][138.781s][info][gc             ] GC(55) Pause Full (Allocation Failure) 12M->11M(494M) 211.078ms
+[2025-01-26T07:30:02.091+0000][138.781s][info][gc,heap        ] GC(54) ParNew: 2977K->0K(157248K)
+[2025-01-26T07:30:02.091+0000][138.781s][info][gc,heap        ] GC(54) CMS: 11801K->12142K(349568K)
+[2025-01-26T07:30:02.091+0000][138.782s][info][gc,metaspace   ] GC(54) Metaspace: 45032K(47540K)->45032K(47540K) NonClass: 39833K(41396K)->39833K(41396K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:30:02.092+0000][138.783s][info][gc             ] GC(54) Pause Young (Allocation Failure) 14M->11M(451M) 225.467ms
+[2025-01-26T07:30:02.093+0000][138.783s][info][gc,cpu         ] GC(54) User=0.23s Sys=0.01s Real=0.23s
+[2025-01-26T07:30:02.093+0000][138.784s][info][gc,start       ] GC(56) Pause Full (Allocation Failure)
+[2025-01-26T07:30:02.095+0000][138.785s][info][gc,phases,start] GC(56) Phase 1: Mark live objects
+[2025-01-26T07:30:02.176+0000][138.867s][info][gc,phases      ] GC(56) Phase 1: Mark live objects 81.800ms
+[2025-01-26T07:30:02.177+0000][138.868s][info][gc,phases,start] GC(56) Phase 2: Compute new object addresses
+[2025-01-26T07:30:02.218+0000][138.909s][info][gc,phases      ] GC(56) Phase 2: Compute new object addresses 41.190ms
+[2025-01-26T07:30:02.219+0000][138.910s][info][gc,phases,start] GC(56) Phase 3: Adjust pointers
+[2025-01-26T07:30:02.270+0000][138.961s][info][gc,phases      ] GC(56) Phase 3: Adjust pointers 51.292ms
+[2025-01-26T07:30:02.271+0000][138.962s][info][gc,phases,start] GC(56) Phase 4: Move objects
+[2025-01-26T07:30:02.272+0000][138.962s][info][gc,phases      ] GC(56) Phase 4: Move objects 0.641ms
+[2025-01-26T07:30:02.274+0000][138.964s][info][gc,heap        ] GC(56) ParNew: 0K->0K(143424K)
+[2025-01-26T07:30:02.274+0000][138.965s][info][gc,heap        ] GC(56) CMS: 12142K->11808K(349568K)
+[2025-01-26T07:30:02.275+0000][138.965s][info][gc,metaspace   ] GC(56) Metaspace: 45028K(47540K)->45028K(47540K) NonClass: 39830K(41396K)->39830K(41396K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:30:02.276+0000][138.967s][info][gc             ] GC(56) Pause Full (Allocation Failure) 11M->11M(319M) 182.901ms
+[2025-01-26T07:30:02.277+0000][138.967s][info][gc,cpu         ] GC(56) User=0.18s Sys=0.00s Real=0.18s
+[2025-01-26T07:32:34.868+0000][291.560s][info][gc,start       ] GC(57) Pause Young (Allocation Failure)
+[2025-01-26T07:32:34.874+0000][291.565s][info][gc,task        ] GC(57) Using 5 workers of 5 for evacuation
+[2025-01-26T07:32:34.897+0000][291.589s][info][gc,start       ] GC(58) Pause Full (Allocation Failure)
+[2025-01-26T07:32:34.900+0000][291.591s][info][gc,phases,start] GC(58) Phase 1: Mark live objects
+[2025-01-26T07:32:34.980+0000][291.672s][info][gc,phases      ] GC(58) Phase 1: Mark live objects 80.324ms
+[2025-01-26T07:32:34.981+0000][291.673s][info][gc,phases,start] GC(58) Phase 2: Compute new object addresses
+[2025-01-26T07:32:35.023+0000][291.714s][info][gc,phases      ] GC(58) Phase 2: Compute new object addresses 41.678ms
+[2025-01-26T07:32:35.024+0000][291.715s][info][gc,phases,start] GC(58) Phase 3: Adjust pointers
+[2025-01-26T07:32:35.095+0000][291.786s][info][gc,phases      ] GC(58) Phase 3: Adjust pointers 70.931ms
+[2025-01-26T07:32:35.095+0000][291.787s][info][gc,phases,start] GC(58) Phase 4: Move objects
+[2025-01-26T07:32:35.100+0000][291.792s][info][gc,phases      ] GC(58) Phase 4: Move objects 4.659ms
+[2025-01-26T07:32:35.106+0000][291.797s][info][gc             ] GC(58) Pause Full (Allocation Failure) 12M->11M(319M) 208.042ms
+[2025-01-26T07:32:35.107+0000][291.798s][info][gc,heap        ] GC(57) ParNew: 36988K->0K(101504K)
+[2025-01-26T07:32:35.107+0000][291.798s][info][gc,heap        ] GC(57) CMS: 11808K->12141K(225488K)
+[2025-01-26T07:32:35.108+0000][291.799s][info][gc,metaspace   ] GC(57) Metaspace: 45160K(47796K)->45160K(47796K) NonClass: 39959K(41652K)->39959K(41652K) Class: 5201K(6144K)->5201K(6144K)
+[2025-01-26T07:32:35.117+0000][291.808s][info][gc             ] GC(57) Pause Young (Allocation Failure) 47M->11M(57M) 249.023ms
+[2025-01-26T07:32:35.118+0000][291.809s][info][gc,cpu         ] GC(57) User=0.27s Sys=0.02s Real=0.25s
+[2025-01-26T07:32:35.121+0000][291.812s][info][gc,start       ] GC(59) Pause Full (Allocation Failure)
+[2025-01-26T07:32:35.122+0000][291.813s][info][gc,phases,start] GC(59) Phase 1: Mark live objects
+[2025-01-26T07:32:35.223+0000][291.914s][info][gc,phases      ] GC(59) Phase 1: Mark live objects 100.586ms
+[2025-01-26T07:32:35.223+0000][291.915s][info][gc,phases,start] GC(59) Phase 2: Compute new object addresses
+[2025-01-26T07:32:35.265+0000][291.957s][info][gc,phases      ] GC(59) Phase 2: Compute new object addresses 41.765ms
+[2025-01-26T07:32:35.266+0000][291.957s][info][gc,phases,start] GC(59) Phase 3: Adjust pointers
+[2025-01-26T07:32:35.319+0000][292.011s][info][gc,phases      ] GC(59) Phase 3: Adjust pointers 53.572ms
+[2025-01-26T07:32:35.320+0000][292.011s][info][gc,phases,start] GC(59) Phase 4: Move objects
+[2025-01-26T07:32:35.321+0000][292.012s][info][gc,phases      ] GC(59) Phase 4: Move objects 0.733ms
+[2025-01-26T07:32:35.323+0000][292.014s][info][gc,heap        ] GC(59) ParNew: 0K->0K(18304K)
+[2025-01-26T07:32:35.323+0000][292.014s][info][gc,heap        ] GC(59) CMS: 12141K->11803K(349568K)
+[2025-01-26T07:32:35.324+0000][292.015s][info][gc,metaspace   ] GC(59) Metaspace: 45160K(47796K)->45160K(47796K) NonClass: 39959K(41652K)->39959K(41652K) Class: 5201K(6144K)->5201K(6144K)
+[2025-01-26T07:32:35.326+0000][292.018s][info][gc             ] GC(59) Pause Full (Allocation Failure) 11M->11M(55M) 205.791ms
+[2025-01-26T07:32:35.327+0000][292.018s][info][gc,cpu         ] GC(59) User=0.20s Sys=0.00s Real=0.20s
+[2025-01-26T07:32:36.496+0000][293.188s][info][gc,start       ] GC(60) Pause Young (Allocation Failure)
+[2025-01-26T07:32:36.498+0000][293.189s][info][gc,task        ] GC(60) Using 5 workers of 5 for evacuation
+[2025-01-26T07:32:36.503+0000][293.195s][info][gc,start       ] GC(61) Pause Full (Allocation Failure)
+[2025-01-26T07:32:36.505+0000][293.197s][info][gc,phases,start] GC(61) Phase 1: Mark live objects
+[2025-01-26T07:32:36.573+0000][293.264s][info][gc,phases      ] GC(61) Phase 1: Mark live objects 67.492ms
+[2025-01-26T07:32:36.574+0000][293.265s][info][gc,phases,start] GC(61) Phase 2: Compute new object addresses
+[2025-01-26T07:32:36.615+0000][293.306s][info][gc,phases      ] GC(61) Phase 2: Compute new object addresses 41.037ms
+[2025-01-26T07:32:36.615+0000][293.307s][info][gc,phases,start] GC(61) Phase 3: Adjust pointers
+[2025-01-26T07:32:36.684+0000][293.375s][info][gc,phases      ] GC(61) Phase 3: Adjust pointers 68.000ms
+[2025-01-26T07:32:36.684+0000][293.376s][info][gc,phases,start] GC(61) Phase 4: Move objects
+[2025-01-26T07:32:36.688+0000][293.379s][info][gc,phases      ] GC(61) Phase 4: Move objects 3.340ms
+[2025-01-26T07:32:36.689+0000][293.381s][info][gc             ] GC(61) Pause Full (Allocation Failure) 12M->11M(55M) 185.892ms
+[2025-01-26T07:32:36.690+0000][293.381s][info][gc,heap        ] GC(60) ParNew: 1837K->0K(17792K)
+[2025-01-26T07:32:36.690+0000][293.381s][info][gc,heap        ] GC(60) CMS: 11803K->12145K(39344K)
+[2025-01-26T07:32:36.690+0000][293.382s][info][gc,metaspace   ] GC(60) Metaspace: 45168K(47796K)->45168K(47796K) NonClass: 39969K(41652K)->39969K(41652K) Class: 5199K(6144K)->5199K(6144K)
+[2025-01-26T07:32:36.691+0000][293.382s][info][gc             ] GC(60) Pause Young (Allocation Failure) 13M->11M(55M) 194.535ms
+[2025-01-26T07:32:36.691+0000][293.383s][info][gc,cpu         ] GC(60) User=0.20s Sys=0.00s Real=0.20s
+[2025-01-26T07:32:36.694+0000][293.385s][info][gc,start       ] GC(62) Pause Full (Allocation Failure)
+[2025-01-26T07:32:36.695+0000][293.387s][info][gc,phases,start] GC(62) Phase 1: Mark live objects
+[2025-01-26T07:32:36.780+0000][293.471s][info][gc,phases      ] GC(62) Phase 1: Mark live objects 84.666ms
+[2025-01-26T07:32:36.781+0000][293.472s][info][gc,phases,start] GC(62) Phase 2: Compute new object addresses
+[2025-01-26T07:32:36.822+0000][293.513s][info][gc,phases      ] GC(62) Phase 2: Compute new object addresses 40.849ms
+[2025-01-26T07:32:36.822+0000][293.514s][info][gc,phases,start] GC(62) Phase 3: Adjust pointers
+[2025-01-26T07:32:36.873+0000][293.565s][info][gc,phases      ] GC(62) Phase 3: Adjust pointers 51.171ms
+[2025-01-26T07:32:36.874+0000][293.565s][info][gc,phases,start] GC(62) Phase 4: Move objects
+[2025-01-26T07:32:36.875+0000][293.566s][info][gc,phases      ] GC(62) Phase 4: Move objects 0.654ms
+[2025-01-26T07:32:36.876+0000][293.568s][info][gc,heap        ] GC(62) ParNew: 0K->0K(17792K)
+[2025-01-26T07:32:36.877+0000][293.568s][info][gc,heap        ] GC(62) CMS: 12145K->11810K(349568K)
+[2025-01-26T07:32:36.877+0000][293.569s][info][gc,metaspace   ] GC(62) Metaspace: 45168K(47796K)->45168K(47796K) NonClass: 39969K(41652K)->39969K(41652K) Class: 5199K(6144K)->5199K(6144K)
+[2025-01-26T07:32:36.879+0000][293.570s][info][gc             ] GC(62) Pause Full (Allocation Failure) 11M->11M(494M) 185.242ms
+[2025-01-26T07:32:36.879+0000][293.571s][info][gc,cpu         ] GC(62) User=0.18s Sys=0.00s Real=0.19s
+[2025-01-26T07:32:37.531+0000][294.223s][info][gc,start       ] GC(63) Pause Young (Allocation Failure)
+[2025-01-26T07:32:37.533+0000][294.225s][info][gc,task        ] GC(63) Using 5 workers of 5 for evacuation
+[2025-01-26T07:32:37.540+0000][294.232s][info][gc,start       ] GC(64) Pause Full (Allocation Failure)
+[2025-01-26T07:32:37.542+0000][294.234s][info][gc,phases,start] GC(64) Phase 1: Mark live objects
+[2025-01-26T07:32:37.613+0000][294.304s][info][gc,phases      ] GC(64) Phase 1: Mark live objects 70.104ms
+[2025-01-26T07:32:37.613+0000][294.305s][info][gc,phases,start] GC(64) Phase 2: Compute new object addresses
+[2025-01-26T07:32:37.655+0000][294.346s][info][gc,phases      ] GC(64) Phase 2: Compute new object addresses 41.438ms
+[2025-01-26T07:32:37.656+0000][294.347s][info][gc,phases,start] GC(64) Phase 3: Adjust pointers
+[2025-01-26T07:32:37.724+0000][294.416s][info][gc,phases      ] GC(64) Phase 3: Adjust pointers 68.629ms
+[2025-01-26T07:32:37.725+0000][294.416s][info][gc,phases,start] GC(64) Phase 4: Move objects
+[2025-01-26T07:32:37.728+0000][294.419s][info][gc,phases      ] GC(64) Phase 4: Move objects 2.620ms
+[2025-01-26T07:32:37.729+0000][294.421s][info][gc             ] GC(64) Pause Full (Allocation Failure) 12M->11M(494M) 189.178ms
+[2025-01-26T07:32:37.730+0000][294.421s][info][gc,heap        ] GC(63) ParNew: 3921K->0K(157248K)
+[2025-01-26T07:32:37.730+0000][294.422s][info][gc,heap        ] GC(63) CMS: 11810K->12146K(349568K)
+[2025-01-26T07:32:37.731+0000][294.422s][info][gc,metaspace   ] GC(63) Metaspace: 45181K(47796K)->45181K(47796K) NonClass: 39982K(41652K)->39982K(41652K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:32:37.731+0000][294.423s][info][gc             ] GC(63) Pause Young (Allocation Failure) 15M->11M(451M) 200.166ms
+[2025-01-26T07:32:37.732+0000][294.423s][info][gc,cpu         ] GC(63) User=0.20s Sys=0.00s Real=0.20s
+[2025-01-26T07:32:37.733+0000][294.424s][info][gc,start       ] GC(65) Pause Full (Allocation Failure)
+[2025-01-26T07:32:37.734+0000][294.425s][info][gc,phases,start] GC(65) Phase 1: Mark live objects
+[2025-01-26T07:32:37.820+0000][294.511s][info][gc,phases      ] GC(65) Phase 1: Mark live objects 85.927ms
+[2025-01-26T07:32:37.820+0000][294.512s][info][gc,phases,start] GC(65) Phase 2: Compute new object addresses
+[2025-01-26T07:32:37.861+0000][294.553s][info][gc,phases      ] GC(65) Phase 2: Compute new object addresses 40.752ms
+[2025-01-26T07:32:37.862+0000][294.553s][info][gc,phases,start] GC(65) Phase 3: Adjust pointers
+[2025-01-26T07:32:37.913+0000][294.605s][info][gc,phases      ] GC(65) Phase 3: Adjust pointers 51.419ms
+[2025-01-26T07:32:37.914+0000][294.606s][info][gc,phases,start] GC(65) Phase 4: Move objects
+[2025-01-26T07:32:37.915+0000][294.606s][info][gc,phases      ] GC(65) Phase 4: Move objects 0.559ms
+[2025-01-26T07:32:37.916+0000][294.608s][info][gc,heap        ] GC(65) ParNew: 0K->0K(143424K)
+[2025-01-26T07:32:37.917+0000][294.608s][info][gc,heap        ] GC(65) CMS: 12146K->11812K(349568K)
+[2025-01-26T07:32:37.917+0000][294.609s][info][gc,metaspace   ] GC(65) Metaspace: 45181K(47796K)->45181K(47796K) NonClass: 39982K(41652K)->39982K(41652K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:32:37.919+0000][294.610s][info][gc             ] GC(65) Pause Full (Allocation Failure) 11M->11M(319M) 186.357ms
+[2025-01-26T07:32:37.919+0000][294.611s][info][gc,cpu         ] GC(65) User=0.19s Sys=0.00s Real=0.19s
+[2025-01-26T07:32:38.322+0000][295.013s][info][gc,start       ] GC(66) Pause Young (Allocation Failure)
+[2025-01-26T07:32:38.323+0000][295.014s][info][gc,task        ] GC(66) Using 5 workers of 5 for evacuation
+[2025-01-26T07:32:38.327+0000][295.019s][info][gc,start       ] GC(67) Pause Full (Allocation Failure)
+[2025-01-26T07:32:38.329+0000][295.020s][info][gc,phases,start] GC(67) Phase 1: Mark live objects
+[2025-01-26T07:32:38.394+0000][295.085s][info][gc,phases      ] GC(67) Phase 1: Mark live objects 64.936ms
+[2025-01-26T07:32:38.394+0000][295.086s][info][gc,phases,start] GC(67) Phase 2: Compute new object addresses
+[2025-01-26T07:32:38.437+0000][295.128s][info][gc,phases      ] GC(67) Phase 2: Compute new object addresses 42.445ms
+[2025-01-26T07:32:38.438+0000][295.129s][info][gc,phases,start] GC(67) Phase 3: Adjust pointers
+[2025-01-26T07:32:38.512+0000][295.204s][info][gc,phases      ] GC(67) Phase 3: Adjust pointers 74.461ms
+[2025-01-26T07:32:38.513+0000][295.204s][info][gc,phases,start] GC(67) Phase 4: Move objects
+[2025-01-26T07:32:38.514+0000][295.206s][info][gc,phases      ] GC(67) Phase 4: Move objects 1.601ms
+[2025-01-26T07:32:38.516+0000][295.208s][info][gc             ] GC(67) Pause Full (Allocation Failure) 12M->11M(319M) 188.922ms
+[2025-01-26T07:32:38.517+0000][295.208s][info][gc,heap        ] GC(66) ParNew: 2525K->0K(101504K)
+[2025-01-26T07:32:38.517+0000][295.209s][info][gc,heap        ] GC(66) CMS: 11812K->12147K(225492K)
+[2025-01-26T07:32:38.518+0000][295.209s][info][gc,metaspace   ] GC(66) Metaspace: 45208K(47796K)->45208K(47796K) NonClass: 40009K(41652K)->40009K(41652K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:32:38.519+0000][295.211s][info][gc             ] GC(66) Pause Young (Allocation Failure) 14M->11M(57M) 197.299ms
+[2025-01-26T07:32:38.520+0000][295.211s][info][gc,cpu         ] GC(66) User=0.39s Sys=0.01s Real=0.20s
+[2025-01-26T07:32:38.523+0000][295.214s][info][gc,start       ] GC(68) Pause Full (Allocation Failure)
+[2025-01-26T07:32:38.524+0000][295.216s][info][gc,phases,start] GC(68) Phase 1: Mark live objects
+[2025-01-26T07:32:38.612+0000][295.303s][info][gc,phases      ] GC(68) Phase 1: Mark live objects 87.673ms
+[2025-01-26T07:32:38.612+0000][295.304s][info][gc,phases,start] GC(68) Phase 2: Compute new object addresses
+[2025-01-26T07:32:38.654+0000][295.345s][info][gc,phases      ] GC(68) Phase 2: Compute new object addresses 41.183ms
+[2025-01-26T07:32:38.654+0000][295.346s][info][gc,phases,start] GC(68) Phase 3: Adjust pointers
+[2025-01-26T07:32:38.709+0000][295.400s][info][gc,phases      ] GC(68) Phase 3: Adjust pointers 54.674ms
+[2025-01-26T07:32:38.710+0000][295.401s][info][gc,phases,start] GC(68) Phase 4: Move objects
+[2025-01-26T07:32:38.711+0000][295.402s][info][gc,phases      ] GC(68) Phase 4: Move objects 0.770ms
+[2025-01-26T07:32:38.712+0000][295.404s][info][gc,heap        ] GC(68) ParNew: 0K->0K(18304K)
+[2025-01-26T07:32:38.713+0000][295.405s][info][gc,heap        ] GC(68) CMS: 12147K->11812K(349568K)
+[2025-01-26T07:32:38.714+0000][295.405s][info][gc,metaspace   ] GC(68) Metaspace: 45208K(47796K)->45208K(47796K) NonClass: 40009K(41652K)->40009K(41652K) Class: 5198K(6144K)->5198K(6144K)
+[2025-01-26T07:32:38.715+0000][295.407s][info][gc             ] GC(68) Pause Full (Allocation Failure) 11M->11M(55M) 192.705ms
+[2025-01-26T07:32:38.716+0000][295.408s][info][gc,cpu         ] GC(68) User=0.19s Sys=0.01s Real=0.19s
+[2025-01-26T07:33:44.122+0000][360.814s][info][gc,start       ] GC(69) Pause Young (Allocation Failure)
+[2025-01-26T07:33:44.131+0000][360.822s][info][gc,task        ] GC(69) Using 5 workers of 5 for evacuation
+[2025-01-26T07:33:44.171+0000][360.862s][info][gc,heap        ] GC(69) ParNew: 15872K->544K(17792K)
+[2025-01-26T07:33:44.172+0000][360.863s][info][gc,heap        ] GC(69) CMS: 11812K->11812K(39380K)
+[2025-01-26T07:33:44.173+0000][360.864s][info][gc,metaspace   ] GC(69) Metaspace: 45280K(47796K)->45280K(47796K) NonClass: 40077K(41652K)->40077K(41652K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:33:44.175+0000][360.866s][info][gc             ] GC(69) Pause Young (Allocation Failure) 27M->12M(55M) 52.410ms
+[2025-01-26T07:33:44.175+0000][360.866s][info][gc,cpu         ] GC(69) User=0.08s Sys=0.03s Real=0.05s
+[2025-01-26T07:34:55.454+0000][432.146s][info][gc,start       ] GC(70) Pause Young (Allocation Failure)
+[2025-01-26T07:34:55.459+0000][432.151s][info][gc,task        ] GC(70) Using 5 workers of 5 for evacuation
+[2025-01-26T07:34:55.480+0000][432.172s][info][gc,heap        ] GC(70) ParNew: 16416K->497K(17792K)
+[2025-01-26T07:34:55.482+0000][432.173s][info][gc,heap        ] GC(70) CMS: 11812K->11812K(39380K)
+[2025-01-26T07:34:55.482+0000][432.174s][info][gc,metaspace   ] GC(70) Metaspace: 45321K(47796K)->45321K(47796K) NonClass: 40119K(41652K)->40119K(41652K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:34:55.484+0000][432.175s][info][gc             ] GC(70) Pause Young (Allocation Failure) 27M->12M(55M) 29.178ms
+[2025-01-26T07:34:55.484+0000][432.176s][info][gc,cpu         ] GC(70) User=0.09s Sys=0.01s Real=0.03s
+[2025-01-26T07:36:08.744+0000][505.435s][info][gc,start       ] GC(71) Pause Young (Allocation Failure)
+[2025-01-26T07:36:08.747+0000][505.438s][info][gc,task        ] GC(71) Using 5 workers of 5 for evacuation
+[2025-01-26T07:36:08.756+0000][505.447s][info][gc,heap        ] GC(71) ParNew: 16369K->580K(17792K)
+[2025-01-26T07:36:08.757+0000][505.448s][info][gc,heap        ] GC(71) CMS: 11812K->11812K(39380K)
+[2025-01-26T07:36:08.758+0000][505.449s][info][gc,metaspace   ] GC(71) Metaspace: 45330K(47796K)->45330K(47796K) NonClass: 40127K(41652K)->40127K(41652K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:36:08.759+0000][505.450s][info][gc             ] GC(71) Pause Young (Allocation Failure) 27M->12M(55M) 15.162ms
+[2025-01-26T07:36:08.760+0000][505.451s][info][gc,cpu         ] GC(71) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T07:37:21.989+0000][578.683s][info][gc,start       ] GC(72) Pause Young (Allocation Failure)
+[2025-01-26T07:37:21.990+0000][578.684s][info][gc,task        ] GC(72) Using 5 workers of 5 for evacuation
+[2025-01-26T07:37:21.996+0000][578.690s][info][gc,heap        ] GC(72) ParNew: 16452K->538K(17792K)
+[2025-01-26T07:37:21.996+0000][578.691s][info][gc,heap        ] GC(72) CMS: 11812K->11812K(39380K)
+[2025-01-26T07:37:21.997+0000][578.691s][info][gc,metaspace   ] GC(72) Metaspace: 45343K(47796K)->45343K(47796K) NonClass: 40140K(41652K)->40140K(41652K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:37:21.997+0000][578.692s][info][gc             ] GC(72) Pause Young (Allocation Failure) 27M->12M(55M) 8.813ms
+[2025-01-26T07:37:21.998+0000][578.692s][info][gc,cpu         ] GC(72) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:38:35.234+0000][651.951s][info][gc,start       ] GC(73) Pause Young (Allocation Failure)
+[2025-01-26T07:38:35.239+0000][651.957s][info][gc,task        ] GC(73) Using 5 workers of 5 for evacuation
+[2025-01-26T07:38:35.279+0000][651.996s][info][gc,heap        ] GC(73) ParNew: 16410K->564K(17792K)
+[2025-01-26T07:38:35.280+0000][651.997s][info][gc,heap        ] GC(73) CMS: 11812K->11812K(39380K)
+[2025-01-26T07:38:35.280+0000][651.998s][info][gc,metaspace   ] GC(73) Metaspace: 45344K(47796K)->45344K(47796K) NonClass: 40141K(41652K)->40141K(41652K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:38:35.282+0000][652.000s][info][gc             ] GC(73) Pause Young (Allocation Failure) 27M->12M(55M) 48.862ms
+[2025-01-26T07:38:35.283+0000][652.000s][info][gc,cpu         ] GC(73) User=0.10s Sys=0.03s Real=0.05s
+[2025-01-26T07:43:14.102+0000][726.292s][info][gc,start       ] GC(74) Pause Young (Allocation Failure)
+[2025-01-26T07:43:14.104+0000][726.294s][info][gc,task        ] GC(74) Using 5 workers of 5 for evacuation
+[2025-01-26T07:43:14.112+0000][726.302s][info][gc,heap        ] GC(74) ParNew: 16436K->650K(17792K)
+[2025-01-26T07:43:14.113+0000][726.302s][info][gc,heap        ] GC(74) CMS: 11812K->11812K(39380K)
+[2025-01-26T07:43:14.113+0000][726.303s][info][gc,metaspace   ] GC(74) Metaspace: 45351K(48052K)->45351K(48052K) NonClass: 40149K(41908K)->40149K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:43:14.114+0000][726.303s][info][gc             ] GC(74) Pause Young (Allocation Failure) 27M->12M(55M) 11.685ms
+[2025-01-26T07:43:14.114+0000][726.304s][info][gc,cpu         ] GC(74) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:44:27.405+0000][799.598s][info][gc,start       ] GC(75) Pause Young (Allocation Failure)
+[2025-01-26T07:44:27.408+0000][799.600s][info][gc,task        ] GC(75) Using 5 workers of 5 for evacuation
+[2025-01-26T07:44:27.430+0000][799.623s][info][gc,heap        ] GC(75) ParNew: 16522K->412K(17792K)
+[2025-01-26T07:44:27.431+0000][799.624s][info][gc,heap        ] GC(75) CMS: 11812K->12225K(39380K)
+[2025-01-26T07:44:27.432+0000][799.624s][info][gc,metaspace   ] GC(75) Metaspace: 45352K(48052K)->45352K(48052K) NonClass: 40150K(41908K)->40150K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:44:27.433+0000][799.625s][info][gc             ] GC(75) Pause Young (Allocation Failure) 27M->12M(55M) 27.292ms
+[2025-01-26T07:44:27.433+0000][799.626s][info][gc,cpu         ] GC(75) User=0.05s Sys=0.01s Real=0.03s
+[2025-01-26T07:45:40.702+0000][872.896s][info][gc,start       ] GC(76) Pause Young (Allocation Failure)
+[2025-01-26T07:45:40.704+0000][872.898s][info][gc,task        ] GC(76) Using 5 workers of 5 for evacuation
+[2025-01-26T07:45:40.710+0000][872.903s][info][gc,heap        ] GC(76) ParNew: 16284K->173K(17792K)
+[2025-01-26T07:45:40.711+0000][872.904s][info][gc,heap        ] GC(76) CMS: 12225K->12232K(39380K)
+[2025-01-26T07:45:40.712+0000][872.906s][info][gc,metaspace   ] GC(76) Metaspace: 45353K(48052K)->45353K(48052K) NonClass: 40150K(41908K)->40150K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:45:40.713+0000][872.906s][info][gc             ] GC(76) Pause Young (Allocation Failure) 27M->12M(55M) 10.548ms
+[2025-01-26T07:45:40.718+0000][872.911s][info][gc,cpu         ] GC(76) User=0.01s Sys=0.00s Real=0.02s
+[2025-01-26T07:46:53.975+0000][946.170s][info][gc,start       ] GC(77) Pause Young (Allocation Failure)
+[2025-01-26T07:46:53.977+0000][946.172s][info][gc,task        ] GC(77) Using 5 workers of 5 for evacuation
+[2025-01-26T07:46:53.982+0000][946.178s][info][gc,heap        ] GC(77) ParNew: 16045K->97K(17792K)
+[2025-01-26T07:46:53.983+0000][946.179s][info][gc,heap        ] GC(77) CMS: 12232K->12256K(39380K)
+[2025-01-26T07:46:53.984+0000][946.179s][info][gc,metaspace   ] GC(77) Metaspace: 45353K(48052K)->45353K(48052K) NonClass: 40150K(41908K)->40150K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:46:53.984+0000][946.180s][info][gc             ] GC(77) Pause Young (Allocation Failure) 27M->12M(55M) 9.781ms
+[2025-01-26T07:46:53.985+0000][946.180s][info][gc,cpu         ] GC(77) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T07:48:08.227+0000][1020.424s][info][gc,start       ] GC(78) Pause Young (Allocation Failure)
+[2025-01-26T07:48:08.235+0000][1020.431s][info][gc,task        ] GC(78) Using 5 workers of 5 for evacuation
+[2025-01-26T07:48:08.262+0000][1020.458s][info][gc,heap        ] GC(78) ParNew: 15969K->58K(17792K)
+[2025-01-26T07:48:08.263+0000][1020.458s][info][gc,heap        ] GC(78) CMS: 12256K->12274K(39380K)
+[2025-01-26T07:48:08.263+0000][1020.459s][info][gc,metaspace   ] GC(78) Metaspace: 45364K(48052K)->45364K(48052K) NonClass: 40161K(41908K)->40161K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:48:08.265+0000][1020.461s][info][gc             ] GC(78) Pause Young (Allocation Failure) 27M->12M(55M) 38.030ms
+[2025-01-26T07:48:08.265+0000][1020.461s][info][gc,cpu         ] GC(78) User=0.07s Sys=0.01s Real=0.04s
+[2025-01-26T07:49:21.315+0000][1093.513s][info][gc,start       ] GC(79) Pause Young (Allocation Failure)
+[2025-01-26T07:49:21.317+0000][1093.516s][info][gc,task        ] GC(79) Using 5 workers of 5 for evacuation
+[2025-01-26T07:49:21.338+0000][1093.537s][info][gc,heap        ] GC(79) ParNew: 15930K->12K(17792K)
+[2025-01-26T07:49:21.339+0000][1093.538s][info][gc,heap        ] GC(79) CMS: 12274K->12274K(39380K)
+[2025-01-26T07:49:21.340+0000][1093.538s][info][gc,metaspace   ] GC(79) Metaspace: 45364K(48052K)->45364K(48052K) NonClass: 40161K(41908K)->40161K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:49:21.341+0000][1093.539s][info][gc             ] GC(79) Pause Young (Allocation Failure) 27M->11M(55M) 26.118ms
+[2025-01-26T07:49:21.341+0000][1093.540s][info][gc,cpu         ] GC(79) User=0.06s Sys=0.01s Real=0.03s
+[2025-01-26T07:50:34.772+0000][1166.971s][info][gc,start       ] GC(80) Pause Young (Allocation Failure)
+[2025-01-26T07:50:34.776+0000][1166.975s][info][gc,task        ] GC(80) Using 5 workers of 5 for evacuation
+[2025-01-26T07:50:34.781+0000][1166.980s][info][gc,heap        ] GC(80) ParNew: 15884K->12K(17792K)
+[2025-01-26T07:50:34.782+0000][1166.981s][info][gc,heap        ] GC(80) CMS: 12274K->12276K(39380K)
+[2025-01-26T07:50:34.783+0000][1166.982s][info][gc,metaspace   ] GC(80) Metaspace: 45364K(48052K)->45364K(48052K) NonClass: 40161K(41908K)->40161K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:50:34.784+0000][1166.983s][info][gc             ] GC(80) Pause Young (Allocation Failure) 27M->12M(55M) 11.578ms
+[2025-01-26T07:50:34.785+0000][1166.984s][info][gc,cpu         ] GC(80) User=0.01s Sys=0.01s Real=0.01s
+[2025-01-26T07:51:48.043+0000][1240.244s][info][gc,start       ] GC(81) Pause Young (Allocation Failure)
+[2025-01-26T07:51:48.047+0000][1240.247s][info][gc,task        ] GC(81) Using 5 workers of 5 for evacuation
+[2025-01-26T07:51:48.051+0000][1240.252s][info][gc,heap        ] GC(81) ParNew: 15884K->34K(17792K)
+[2025-01-26T07:51:48.052+0000][1240.253s][info][gc,heap        ] GC(81) CMS: 12276K->12276K(39380K)
+[2025-01-26T07:51:48.053+0000][1240.254s][info][gc,metaspace   ] GC(81) Metaspace: 45364K(48052K)->45364K(48052K) NonClass: 40161K(41908K)->40161K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:51:48.054+0000][1240.255s][info][gc             ] GC(81) Pause Young (Allocation Failure) 27M->12M(55M) 11.105ms
+[2025-01-26T07:51:48.055+0000][1240.256s][info][gc,cpu         ] GC(81) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T07:53:01.296+0000][1313.497s][info][gc,start       ] GC(82) Pause Young (Allocation Failure)
+[2025-01-26T07:53:01.299+0000][1313.501s][info][gc,task        ] GC(82) Using 5 workers of 5 for evacuation
+[2025-01-26T07:53:01.305+0000][1313.506s][info][gc,heap        ] GC(82) ParNew: 15905K->16K(17792K)
+[2025-01-26T07:53:01.306+0000][1313.507s][info][gc,heap        ] GC(82) CMS: 12276K->12277K(39380K)
+[2025-01-26T07:53:01.306+0000][1313.508s][info][gc,metaspace   ] GC(82) Metaspace: 45364K(48052K)->45364K(48052K) NonClass: 40161K(41908K)->40161K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:53:01.307+0000][1313.509s][info][gc             ] GC(82) Pause Young (Allocation Failure) 27M->12M(55M) 11.422ms
+[2025-01-26T07:53:01.308+0000][1313.510s][info][gc,cpu         ] GC(82) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T07:54:15.549+0000][1387.753s][info][gc,start       ] GC(83) Pause Young (Allocation Failure)
+[2025-01-26T07:54:15.562+0000][1387.765s][info][gc,task        ] GC(83) Using 5 workers of 5 for evacuation
+[2025-01-26T07:54:15.604+0000][1387.807s][info][gc,heap        ] GC(83) ParNew: 15888K->10K(17792K)
+[2025-01-26T07:54:15.605+0000][1387.808s][info][gc,heap        ] GC(83) CMS: 12277K->12277K(39380K)
+[2025-01-26T07:54:15.605+0000][1387.808s][info][gc,metaspace   ] GC(83) Metaspace: 45367K(48052K)->45367K(48052K) NonClass: 40164K(41908K)->40164K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:54:15.607+0000][1387.810s][info][gc             ] GC(83) Pause Young (Allocation Failure) 27M->11M(55M) 58.997ms
+[2025-01-26T07:54:15.608+0000][1387.811s][info][gc,cpu         ] GC(83) User=0.08s Sys=0.04s Real=0.06s
+[2025-01-26T07:55:27.816+0000][1460.021s][info][gc,start       ] GC(84) Pause Young (Allocation Failure)
+[2025-01-26T07:55:27.820+0000][1460.025s][info][gc,task        ] GC(84) Using 5 workers of 5 for evacuation
+[2025-01-26T07:55:27.829+0000][1460.033s][info][gc,heap        ] GC(84) ParNew: 15882K->51K(17792K)
+[2025-01-26T07:55:27.829+0000][1460.034s][info][gc,heap        ] GC(84) CMS: 12277K->12278K(39380K)
+[2025-01-26T07:55:27.830+0000][1460.035s][info][gc,metaspace   ] GC(84) Metaspace: 45367K(48052K)->45367K(48052K) NonClass: 40164K(41908K)->40164K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:55:27.831+0000][1460.036s][info][gc             ] GC(84) Pause Young (Allocation Failure) 27M->12M(55M) 15.149ms
+[2025-01-26T07:55:27.832+0000][1460.037s][info][gc,cpu         ] GC(84) User=0.03s Sys=0.00s Real=0.01s
+[2025-01-26T07:56:41.075+0000][1533.281s][info][gc,start       ] GC(85) Pause Young (Allocation Failure)
+[2025-01-26T07:56:41.077+0000][1533.283s][info][gc,task        ] GC(85) Using 5 workers of 5 for evacuation
+[2025-01-26T07:56:41.080+0000][1533.285s][info][gc,heap        ] GC(85) ParNew: 15923K->24K(17792K)
+[2025-01-26T07:56:41.080+0000][1533.286s][info][gc,heap        ] GC(85) CMS: 12278K->12278K(39380K)
+[2025-01-26T07:56:41.081+0000][1533.286s][info][gc,metaspace   ] GC(85) Metaspace: 45367K(48052K)->45367K(48052K) NonClass: 40164K(41908K)->40164K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:56:41.081+0000][1533.287s][info][gc             ] GC(85) Pause Young (Allocation Failure) 27M->12M(55M) 6.421ms
+[2025-01-26T07:56:41.082+0000][1533.288s][info][gc,cpu         ] GC(85) User=0.01s Sys=0.00s Real=0.00s
+[2025-01-26T07:57:54.353+0000][1606.563s][info][gc,start       ] GC(86) Pause Young (Allocation Failure)
+[2025-01-26T07:57:54.356+0000][1606.567s][info][gc,task        ] GC(86) Using 5 workers of 5 for evacuation
+[2025-01-26T07:57:54.360+0000][1606.570s][info][gc,heap        ] GC(86) ParNew: 15896K->10K(17792K)
+[2025-01-26T07:57:54.361+0000][1606.571s][info][gc,heap        ] GC(86) CMS: 12278K->12279K(39380K)
+[2025-01-26T07:57:54.362+0000][1606.572s][info][gc,metaspace   ] GC(86) Metaspace: 45368K(48052K)->45368K(48052K) NonClass: 40165K(41908K)->40165K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:57:54.362+0000][1606.573s][info][gc             ] GC(86) Pause Young (Allocation Failure) 27M->12M(55M) 9.351ms
+[2025-01-26T07:57:54.363+0000][1606.573s][info][gc,cpu         ] GC(86) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T07:59:08.592+0000][1680.800s][info][gc,start       ] GC(87) Pause Young (Allocation Failure)
+[2025-01-26T07:59:08.598+0000][1680.806s][info][gc,task        ] GC(87) Using 5 workers of 5 for evacuation
+[2025-01-26T07:59:08.609+0000][1680.817s][info][gc,heap        ] GC(87) ParNew: 15882K->10K(17792K)
+[2025-01-26T07:59:08.611+0000][1680.819s][info][gc,heap        ] GC(87) CMS: 12279K->12279K(39380K)
+[2025-01-26T07:59:08.612+0000][1680.820s][info][gc,metaspace   ] GC(87) Metaspace: 45368K(48052K)->45368K(48052K) NonClass: 40166K(41908K)->40166K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T07:59:08.613+0000][1680.821s][info][gc             ] GC(87) Pause Young (Allocation Failure) 27M->12M(55M) 20.844ms
+[2025-01-26T07:59:08.614+0000][1680.822s][info][gc,cpu         ] GC(87) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T08:00:21.894+0000][1754.105s][info][gc,start       ] GC(88) Pause Young (Allocation Failure)
+[2025-01-26T08:00:21.905+0000][1754.115s][info][gc,task        ] GC(88) Using 5 workers of 5 for evacuation
+[2025-01-26T08:00:21.940+0000][1754.150s][info][gc,heap        ] GC(88) ParNew: 15882K->13K(17792K)
+[2025-01-26T08:00:21.941+0000][1754.151s][info][gc,heap        ] GC(88) CMS: 12279K->12279K(39380K)
+[2025-01-26T08:00:21.942+0000][1754.152s][info][gc,metaspace   ] GC(88) Metaspace: 45368K(48052K)->45368K(48052K) NonClass: 40166K(41908K)->40166K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T08:00:21.944+0000][1754.154s][info][gc             ] GC(88) Pause Young (Allocation Failure) 27M->12M(55M) 50.348ms
+[2025-01-26T08:00:21.944+0000][1754.154s][info][gc,cpu         ] GC(88) User=0.07s Sys=0.02s Real=0.05s
+[2025-01-26T08:01:35.132+0000][1827.343s][info][gc,start       ] GC(89) Pause Young (Allocation Failure)
+[2025-01-26T08:01:35.143+0000][1827.354s][info][gc,task        ] GC(89) Using 5 workers of 5 for evacuation
+[2025-01-26T08:01:35.156+0000][1827.367s][info][gc,heap        ] GC(89) ParNew: 15885K->10K(17792K)
+[2025-01-26T08:01:35.158+0000][1827.369s][info][gc,heap        ] GC(89) CMS: 12279K->12279K(39380K)
+[2025-01-26T08:01:35.159+0000][1827.370s][info][gc,metaspace   ] GC(89) Metaspace: 45370K(48052K)->45370K(48052K) NonClass: 40168K(41908K)->40168K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T08:01:35.160+0000][1827.371s][info][gc             ] GC(89) Pause Young (Allocation Failure) 27M->12M(55M) 27.903ms
+[2025-01-26T08:01:35.161+0000][1827.372s][info][gc,cpu         ] GC(89) User=0.04s Sys=0.00s Real=0.03s
+[2025-01-26T08:02:48.480+0000][1900.693s][info][gc,start       ] GC(90) Pause Young (Allocation Failure)
+[2025-01-26T08:02:48.485+0000][1900.697s][info][gc,task        ] GC(90) Using 5 workers of 5 for evacuation
+[2025-01-26T08:02:48.494+0000][1900.707s][info][gc,heap        ] GC(90) ParNew: 15882K->10K(17792K)
+[2025-01-26T08:02:48.496+0000][1900.709s][info][gc,heap        ] GC(90) CMS: 12279K->12279K(39380K)
+[2025-01-26T08:02:48.497+0000][1900.710s][info][gc,metaspace   ] GC(90) Metaspace: 45370K(48052K)->45370K(48052K) NonClass: 40168K(41908K)->40168K(41908K) Class: 5202K(6144K)->5202K(6144K)
+[2025-01-26T08:02:48.499+0000][1900.711s][info][gc             ] GC(90) Pause Young (Allocation Failure) 27M->12M(55M) 18.059ms
+[2025-01-26T08:02:48.499+0000][1900.712s][info][gc,cpu         ] GC(90) User=0.03s Sys=0.01s Real=0.02s
+[2025-01-26T08:03:55.617+0000][1967.829s][info][gc,start       ] GC(91) Pause Young (Allocation Failure)
+[2025-01-26T08:03:55.622+0000][1967.834s][info][gc,task        ] GC(91) Using 5 workers of 5 for evacuation
+[2025-01-26T08:03:55.633+0000][1967.845s][info][gc,heap        ] GC(91) ParNew: 15881K->78K(17792K)
+[2025-01-26T08:03:55.634+0000][1967.845s][info][gc,heap        ] GC(91) CMS: 12279K->12280K(39380K)
+[2025-01-26T08:03:55.634+0000][1967.846s][info][gc,metaspace   ] GC(91) Metaspace: 45408K(48052K)->45408K(48052K) NonClass: 40200K(41908K)->40200K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:03:55.635+0000][1967.847s][info][gc             ] GC(91) Pause Young (Allocation Failure) 27M->12M(55M) 17.865ms
+[2025-01-26T08:03:55.636+0000][1967.848s][info][gc,cpu         ] GC(91) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T08:04:59.874+0000][2032.089s][info][gc,start       ] GC(92) Pause Young (Allocation Failure)
+[2025-01-26T08:04:59.875+0000][2032.090s][info][gc,task        ] GC(92) Using 5 workers of 5 for evacuation
+[2025-01-26T08:04:59.880+0000][2032.095s][info][gc,heap        ] GC(92) ParNew: 15950K->100K(17792K)
+[2025-01-26T08:04:59.881+0000][2032.096s][info][gc,heap        ] GC(92) CMS: 12280K->12280K(39380K)
+[2025-01-26T08:04:59.881+0000][2032.096s][info][gc,metaspace   ] GC(92) Metaspace: 45413K(48052K)->45413K(48052K) NonClass: 40204K(41908K)->40204K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:04:59.882+0000][2032.097s][info][gc             ] GC(92) Pause Young (Allocation Failure) 27M->12M(55M) 8.048ms
+[2025-01-26T08:04:59.882+0000][2032.097s][info][gc,cpu         ] GC(92) User=0.02s Sys=0.00s Real=0.00s
+[2025-01-26T08:06:03.301+0000][2095.517s][info][gc,start       ] GC(93) Pause Young (Allocation Failure)
+[2025-01-26T08:06:03.308+0000][2095.524s][info][gc,task        ] GC(93) Using 5 workers of 5 for evacuation
+[2025-01-26T08:06:03.321+0000][2095.536s][info][gc,heap        ] GC(93) ParNew: 15972K->128K(17792K)
+[2025-01-26T08:06:03.323+0000][2095.538s][info][gc,heap        ] GC(93) CMS: 12280K->12281K(39380K)
+[2025-01-26T08:06:03.324+0000][2095.540s][info][gc,metaspace   ] GC(93) Metaspace: 45413K(48052K)->45413K(48052K) NonClass: 40204K(41908K)->40204K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:06:03.325+0000][2095.541s][info][gc             ] GC(93) Pause Young (Allocation Failure) 27M->12M(55M) 23.839ms
+[2025-01-26T08:06:03.326+0000][2095.542s][info][gc,cpu         ] GC(93) User=0.04s Sys=0.00s Real=0.03s
+[2025-01-26T08:07:17.388+0000][2169.606s][info][gc,start       ] GC(94) Pause Young (Allocation Failure)
+[2025-01-26T08:07:17.396+0000][2169.614s][info][gc,task        ] GC(94) Using 5 workers of 5 for evacuation
+[2025-01-26T08:07:17.430+0000][2169.648s][info][gc,heap        ] GC(94) ParNew: 16000K->145K(17792K)
+[2025-01-26T08:07:17.431+0000][2169.649s][info][gc,heap        ] GC(94) CMS: 12281K->12281K(39380K)
+[2025-01-26T08:07:17.432+0000][2169.649s][info][gc,metaspace   ] GC(94) Metaspace: 45414K(48052K)->45414K(48052K) NonClass: 40205K(41908K)->40205K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:07:17.433+0000][2169.650s][info][gc             ] GC(94) Pause Young (Allocation Failure) 27M->12M(55M) 45.276ms
+[2025-01-26T08:07:17.433+0000][2169.651s][info][gc,cpu         ] GC(94) User=0.07s Sys=0.01s Real=0.05s
+[2025-01-26T08:08:31.660+0000][2243.880s][info][gc,start       ] GC(95) Pause Young (Allocation Failure)
+[2025-01-26T08:08:31.662+0000][2243.882s][info][gc,task        ] GC(95) Using 5 workers of 5 for evacuation
+[2025-01-26T08:08:31.666+0000][2243.886s][info][gc,heap        ] GC(95) ParNew: 16017K->140K(17792K)
+[2025-01-26T08:08:31.667+0000][2243.887s][info][gc,heap        ] GC(95) CMS: 12281K->12281K(39380K)
+[2025-01-26T08:08:31.668+0000][2243.888s][info][gc,metaspace   ] GC(95) Metaspace: 45414K(48052K)->45414K(48052K) NonClass: 40205K(41908K)->40205K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:08:31.668+0000][2243.888s][info][gc             ] GC(95) Pause Young (Allocation Failure) 27M->12M(55M) 8.207ms
+[2025-01-26T08:08:31.669+0000][2243.889s][info][gc,cpu         ] GC(95) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T08:09:43.972+0000][2316.192s][info][gc,start       ] GC(96) Pause Young (Allocation Failure)
+[2025-01-26T08:09:43.974+0000][2316.194s][info][gc,task        ] GC(96) Using 5 workers of 5 for evacuation
+[2025-01-26T08:09:43.979+0000][2316.199s][info][gc,heap        ] GC(96) ParNew: 16012K->138K(17792K)
+[2025-01-26T08:09:43.980+0000][2316.199s][info][gc,heap        ] GC(96) CMS: 12281K->12281K(39380K)
+[2025-01-26T08:09:43.980+0000][2316.200s][info][gc,metaspace   ] GC(96) Metaspace: 45414K(48052K)->45414K(48052K) NonClass: 40205K(41908K)->40205K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:09:43.981+0000][2316.201s][info][gc             ] GC(96) Pause Young (Allocation Failure) 27M->12M(55M) 9.066ms
+[2025-01-26T08:09:43.981+0000][2316.201s][info][gc,cpu         ] GC(96) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T08:10:57.282+0000][2389.502s][info][gc,start       ] GC(97) Pause Young (Allocation Failure)
+[2025-01-26T08:10:57.287+0000][2389.507s][info][gc,task        ] GC(97) Using 5 workers of 5 for evacuation
+[2025-01-26T08:10:57.302+0000][2389.523s][info][gc,heap        ] GC(97) ParNew: 16010K->147K(17792K)
+[2025-01-26T08:10:57.303+0000][2389.524s][info][gc,heap        ] GC(97) CMS: 12281K->12335K(39380K)
+[2025-01-26T08:10:57.304+0000][2389.525s][info][gc,metaspace   ] GC(97) Metaspace: 45418K(48052K)->45418K(48052K) NonClass: 40209K(41908K)->40209K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:10:57.305+0000][2389.525s][info][gc             ] GC(97) Pause Young (Allocation Failure) 27M->12M(55M) 23.365ms
+[2025-01-26T08:10:57.306+0000][2389.526s][info][gc,cpu         ] GC(97) User=0.04s Sys=0.01s Real=0.02s
+[2025-01-26T08:12:11.486+0000][2463.709s][info][gc,start       ] GC(98) Pause Young (Allocation Failure)
+[2025-01-26T08:12:11.491+0000][2463.714s][info][gc,task        ] GC(98) Using 5 workers of 5 for evacuation
+[2025-01-26T08:12:11.501+0000][2463.724s][info][gc,heap        ] GC(98) ParNew: 16019K->72K(17792K)
+[2025-01-26T08:12:11.503+0000][2463.726s][info][gc,heap        ] GC(98) CMS: 12335K->12336K(39380K)
+[2025-01-26T08:12:11.504+0000][2463.727s][info][gc,metaspace   ] GC(98) Metaspace: 45418K(48052K)->45418K(48052K) NonClass: 40210K(41908K)->40210K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:12:11.505+0000][2463.728s][info][gc             ] GC(98) Pause Young (Allocation Failure) 27M->12M(55M) 19.662ms
+[2025-01-26T08:12:11.507+0000][2463.729s][info][gc,cpu         ] GC(98) User=0.03s Sys=0.00s Real=0.03s
+[2025-01-26T08:13:23.763+0000][2535.987s][info][gc,start       ] GC(99) Pause Young (Allocation Failure)
+[2025-01-26T08:13:23.767+0000][2535.991s][info][gc,task        ] GC(99) Using 5 workers of 5 for evacuation
+[2025-01-26T08:13:23.799+0000][2536.024s][info][gc,heap        ] GC(99) ParNew: 15944K->96K(17792K)
+[2025-01-26T08:13:23.800+0000][2536.024s][info][gc,heap        ] GC(99) CMS: 12336K->12337K(39380K)
+[2025-01-26T08:13:23.801+0000][2536.025s][info][gc,metaspace   ] GC(99) Metaspace: 45428K(48052K)->45428K(48052K) NonClass: 40219K(41908K)->40219K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:13:23.802+0000][2536.026s][info][gc             ] GC(99) Pause Young (Allocation Failure) 27M->12M(55M) 39.841ms
+[2025-01-26T08:13:23.803+0000][2536.027s][info][gc,cpu         ] GC(99) User=0.07s Sys=0.03s Real=0.04s
+[2025-01-26T08:14:38.076+0000][2610.262s][info][gc,start       ] GC(100) Pause Young (Allocation Failure)
+[2025-01-26T08:14:38.082+0000][2610.268s][info][gc,task        ] GC(100) Using 5 workers of 5 for evacuation
+[2025-01-26T08:14:38.091+0000][2610.277s][info][gc,heap        ] GC(100) ParNew: 15968K->69K(17792K)
+[2025-01-26T08:14:38.092+0000][2610.278s][info][gc,heap        ] GC(100) CMS: 12337K->12338K(39380K)
+[2025-01-26T08:14:38.093+0000][2610.279s][info][gc,metaspace   ] GC(100) Metaspace: 45433K(48052K)->45433K(48052K) NonClass: 40225K(41908K)->40225K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:14:38.094+0000][2610.280s][info][gc             ] GC(100) Pause Young (Allocation Failure) 27M->12M(55M) 17.372ms
+[2025-01-26T08:14:38.095+0000][2610.280s][info][gc,cpu         ] GC(100) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T08:15:51.382+0000][2683.558s][info][gc,start       ] GC(101) Pause Young (Allocation Failure)
+[2025-01-26T08:15:51.385+0000][2683.561s][info][gc,task        ] GC(101) Using 5 workers of 5 for evacuation
+[2025-01-26T08:15:51.391+0000][2683.566s][info][gc,heap        ] GC(101) ParNew: 15941K->46K(17792K)
+[2025-01-26T08:15:51.391+0000][2683.567s][info][gc,heap        ] GC(101) CMS: 12338K->12338K(39380K)
+[2025-01-26T08:15:51.392+0000][2683.568s][info][gc,metaspace   ] GC(101) Metaspace: 45435K(48052K)->45435K(48052K) NonClass: 40226K(41908K)->40226K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:15:51.393+0000][2683.569s][info][gc             ] GC(101) Pause Young (Allocation Failure) 27M->12M(55M) 10.718ms
+[2025-01-26T08:15:51.393+0000][2683.569s][info][gc,cpu         ] GC(101) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T08:17:04.647+0000][2756.823s][info][gc,start       ] GC(102) Pause Young (Allocation Failure)
+[2025-01-26T08:17:04.650+0000][2756.826s][info][gc,task        ] GC(102) Using 5 workers of 5 for evacuation
+[2025-01-26T08:17:04.653+0000][2756.829s][info][gc,heap        ] GC(102) ParNew: 15918K->44K(17792K)
+[2025-01-26T08:17:04.654+0000][2756.829s][info][gc,heap        ] GC(102) CMS: 12338K->12338K(39380K)
+[2025-01-26T08:17:04.655+0000][2756.830s][info][gc,metaspace   ] GC(102) Metaspace: 45435K(48052K)->45435K(48052K) NonClass: 40226K(41908K)->40226K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:17:04.655+0000][2756.831s][info][gc             ] GC(102) Pause Young (Allocation Failure) 27M->12M(55M) 7.770ms
+[2025-01-26T08:17:04.656+0000][2756.831s][info][gc,cpu         ] GC(102) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T08:18:18.917+0000][2831.092s][info][gc,start       ] GC(103) Pause Young (Allocation Failure)
+[2025-01-26T08:18:18.921+0000][2831.096s][info][gc,task        ] GC(103) Using 5 workers of 5 for evacuation
+[2025-01-26T08:18:18.932+0000][2831.107s][info][gc,heap        ] GC(103) ParNew: 15916K->28K(17792K)
+[2025-01-26T08:18:18.933+0000][2831.108s][info][gc,heap        ] GC(103) CMS: 12338K->12357K(39380K)
+[2025-01-26T08:18:18.934+0000][2831.109s][info][gc,metaspace   ] GC(103) Metaspace: 45436K(48052K)->45436K(48052K) NonClass: 40227K(41908K)->40227K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:18:18.935+0000][2831.109s][info][gc             ] GC(103) Pause Young (Allocation Failure) 27M->12M(55M) 17.622ms
+[2025-01-26T08:18:18.935+0000][2831.110s][info][gc,cpu         ] GC(103) User=0.01s Sys=0.00s Real=0.02s
+[2025-01-26T08:19:32.182+0000][2904.356s][info][gc,start       ] GC(104) Pause Young (Allocation Failure)
+[2025-01-26T08:19:32.186+0000][2904.361s][info][gc,task        ] GC(104) Using 5 workers of 5 for evacuation
+[2025-01-26T08:19:32.196+0000][2904.370s][info][gc,heap        ] GC(104) ParNew: 15900K->6K(17792K)
+[2025-01-26T08:19:32.196+0000][2904.371s][info][gc,heap        ] GC(104) CMS: 12357K->12375K(39380K)
+[2025-01-26T08:19:32.197+0000][2904.371s][info][gc,metaspace   ] GC(104) Metaspace: 45436K(48052K)->45436K(48052K) NonClass: 40227K(41908K)->40227K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:19:32.198+0000][2904.372s][info][gc             ] GC(104) Pause Young (Allocation Failure) 27M->12M(55M) 15.773ms
+[2025-01-26T08:19:32.199+0000][2904.373s][info][gc,cpu         ] GC(104) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T08:20:46.409+0000][2978.582s][info][gc,start       ] GC(105) Pause Young (Allocation Failure)
+[2025-01-26T08:20:46.417+0000][2978.590s][info][gc,task        ] GC(105) Using 5 workers of 5 for evacuation
+[2025-01-26T08:20:46.447+0000][2978.620s][info][gc,heap        ] GC(105) ParNew: 15878K->62K(17792K)
+[2025-01-26T08:20:46.448+0000][2978.621s][info][gc,heap        ] GC(105) CMS: 12375K->12376K(39380K)
+[2025-01-26T08:20:46.449+0000][2978.622s][info][gc,metaspace   ] GC(105) Metaspace: 45437K(48052K)->45437K(48052K) NonClass: 40228K(41908K)->40228K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:20:46.450+0000][2978.623s][info][gc             ] GC(105) Pause Young (Allocation Failure) 27M->12M(55M) 42.251ms
+[2025-01-26T08:20:46.451+0000][2978.624s][info][gc,cpu         ] GC(105) User=0.06s Sys=0.02s Real=0.04s
+[2025-01-26T08:21:59.743+0000][3051.916s][info][gc,start       ] GC(106) Pause Young (Allocation Failure)
+[2025-01-26T08:21:59.747+0000][3051.919s][info][gc,task        ] GC(106) Using 5 workers of 5 for evacuation
+[2025-01-26T08:21:59.756+0000][3051.929s][info][gc,heap        ] GC(106) ParNew: 15934K->50K(17792K)
+[2025-01-26T08:21:59.757+0000][3051.929s][info][gc,heap        ] GC(106) CMS: 12376K->12376K(39380K)
+[2025-01-26T08:21:59.757+0000][3051.930s][info][gc,metaspace   ] GC(106) Metaspace: 45439K(48052K)->45439K(48052K) NonClass: 40230K(41908K)->40230K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:21:59.758+0000][3051.930s][info][gc             ] GC(106) Pause Young (Allocation Failure) 27M->12M(55M) 14.499ms
+[2025-01-26T08:21:59.759+0000][3051.931s][info][gc,cpu         ] GC(106) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T08:23:13.024+0000][3125.195s][info][gc,start       ] GC(107) Pause Young (Allocation Failure)
+[2025-01-26T08:23:13.027+0000][3125.198s][info][gc,task        ] GC(107) Using 5 workers of 5 for evacuation
+[2025-01-26T08:23:13.032+0000][3125.203s][info][gc,heap        ] GC(107) ParNew: 15922K->90K(17792K)
+[2025-01-26T08:23:13.033+0000][3125.204s][info][gc,heap        ] GC(107) CMS: 12376K->12376K(39380K)
+[2025-01-26T08:23:13.033+0000][3125.205s][info][gc,metaspace   ] GC(107) Metaspace: 45439K(48052K)->45439K(48052K) NonClass: 40230K(41908K)->40230K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:23:13.034+0000][3125.205s][info][gc             ] GC(107) Pause Young (Allocation Failure) 27M->12M(55M) 9.948ms
+[2025-01-26T08:23:13.034+0000][3125.206s][info][gc,cpu         ] GC(107) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T08:24:27.287+0000][3199.458s][info][gc,start       ] GC(108) Pause Young (Allocation Failure)
+[2025-01-26T08:24:27.293+0000][3199.464s][info][gc,task        ] GC(108) Using 5 workers of 5 for evacuation
+[2025-01-26T08:24:27.300+0000][3199.472s][info][gc,heap        ] GC(108) ParNew: 15962K->82K(17792K)
+[2025-01-26T08:24:27.302+0000][3199.473s][info][gc,heap        ] GC(108) CMS: 12376K->12377K(39380K)
+[2025-01-26T08:24:27.302+0000][3199.474s][info][gc,metaspace   ] GC(108) Metaspace: 45439K(48052K)->45439K(48052K) NonClass: 40230K(41908K)->40230K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:24:27.303+0000][3199.475s][info][gc             ] GC(108) Pause Young (Allocation Failure) 27M->12M(55M) 16.349ms
+[2025-01-26T08:24:27.304+0000][3199.475s][info][gc,cpu         ] GC(108) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T08:25:41.546+0000][3273.717s][info][gc,start       ] GC(109) Pause Young (Allocation Failure)
+[2025-01-26T08:25:41.548+0000][3273.719s][info][gc,task        ] GC(109) Using 5 workers of 5 for evacuation
+[2025-01-26T08:25:41.553+0000][3273.724s][info][gc,heap        ] GC(109) ParNew: 15954K->46K(17792K)
+[2025-01-26T08:25:41.554+0000][3273.724s][info][gc,heap        ] GC(109) CMS: 12377K->12377K(39380K)
+[2025-01-26T08:25:41.555+0000][3273.725s][info][gc,metaspace   ] GC(109) Metaspace: 45439K(48052K)->45439K(48052K) NonClass: 40230K(41908K)->40230K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:25:41.555+0000][3273.726s][info][gc             ] GC(109) Pause Young (Allocation Failure) 27M->12M(55M) 9.399ms
+[2025-01-26T08:25:41.556+0000][3273.727s][info][gc,cpu         ] GC(109) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T08:26:54.825+0000][3346.996s][info][gc,start       ] GC(110) Pause Young (Allocation Failure)
+[2025-01-26T08:26:54.834+0000][3347.004s][info][gc,task        ] GC(110) Using 5 workers of 5 for evacuation
+[2025-01-26T08:26:54.869+0000][3347.039s][info][gc,heap        ] GC(110) ParNew: 15918K->87K(17792K)
+[2025-01-26T08:26:54.870+0000][3347.040s][info][gc,heap        ] GC(110) CMS: 12377K->12378K(39380K)
+[2025-01-26T08:26:54.870+0000][3347.041s][info][gc,metaspace   ] GC(110) Metaspace: 45443K(48052K)->45443K(48052K) NonClass: 40234K(41908K)->40234K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:26:54.871+0000][3347.042s][info][gc             ] GC(110) Pause Young (Allocation Failure) 27M->12M(55M) 46.854ms
+[2025-01-26T08:26:54.872+0000][3347.042s][info][gc,cpu         ] GC(110) User=0.07s Sys=0.03s Real=0.05s
+[2025-01-26T08:28:08.057+0000][3420.227s][info][gc,start       ] GC(111) Pause Young (Allocation Failure)
+[2025-01-26T08:28:08.061+0000][3420.230s][info][gc,task        ] GC(111) Using 5 workers of 5 for evacuation
+[2025-01-26T08:28:08.070+0000][3420.240s][info][gc,heap        ] GC(111) ParNew: 15959K->82K(17792K)
+[2025-01-26T08:28:08.071+0000][3420.241s][info][gc,heap        ] GC(111) CMS: 12378K->12395K(39380K)
+[2025-01-26T08:28:08.072+0000][3420.241s][info][gc,metaspace   ] GC(111) Metaspace: 45447K(48052K)->45447K(48052K) NonClass: 40238K(41908K)->40238K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:28:08.073+0000][3420.242s][info][gc             ] GC(111) Pause Young (Allocation Failure) 27M->12M(55M) 15.397ms
+[2025-01-26T08:28:08.073+0000][3420.243s][info][gc,cpu         ] GC(111) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T08:31:33.415+0000][3494.646s][info][gc,start       ] GC(112) Pause Young (Allocation Failure)
+[2025-01-26T08:31:33.418+0000][3494.649s][info][gc,task        ] GC(112) Using 5 workers of 5 for evacuation
+[2025-01-26T08:31:33.435+0000][3494.667s][info][gc,heap        ] GC(112) ParNew: 15954K->40K(17792K)
+[2025-01-26T08:31:33.436+0000][3494.668s][info][gc,heap        ] GC(112) CMS: 12395K->12413K(39380K)
+[2025-01-26T08:31:33.437+0000][3494.669s][info][gc,metaspace   ] GC(112) Metaspace: 45448K(48052K)->45448K(48052K) NonClass: 40239K(41908K)->40239K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:31:33.438+0000][3494.669s][info][gc             ] GC(112) Pause Young (Allocation Failure) 27M->12M(55M) 23.308ms
+[2025-01-26T08:31:33.438+0000][3494.670s][info][gc,cpu         ] GC(112) User=0.07s Sys=0.00s Real=0.03s
+[2025-01-26T08:32:47.683+0000][3568.911s][info][gc,start       ] GC(113) Pause Young (Allocation Failure)
+[2025-01-26T08:32:47.687+0000][3568.915s][info][gc,task        ] GC(113) Using 5 workers of 5 for evacuation
+[2025-01-26T08:32:47.692+0000][3568.920s][info][gc,heap        ] GC(113) ParNew: 15912K->37K(17792K)
+[2025-01-26T08:32:47.693+0000][3568.921s][info][gc,heap        ] GC(113) CMS: 12413K->12414K(39380K)
+[2025-01-26T08:32:47.694+0000][3568.922s][info][gc,metaspace   ] GC(113) Metaspace: 45448K(48052K)->45448K(48052K) NonClass: 40239K(41908K)->40239K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:32:47.696+0000][3568.924s][info][gc             ] GC(113) Pause Young (Allocation Failure) 27M->12M(55M) 12.543ms
+[2025-01-26T08:32:47.697+0000][3568.925s][info][gc,cpu         ] GC(113) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T08:34:00.910+0000][3642.139s][info][gc,start       ] GC(114) Pause Young (Allocation Failure)
+[2025-01-26T08:34:00.912+0000][3642.141s][info][gc,task        ] GC(114) Using 5 workers of 5 for evacuation
+[2025-01-26T08:34:00.918+0000][3642.147s][info][gc,heap        ] GC(114) ParNew: 15909K->30K(17792K)
+[2025-01-26T08:34:00.919+0000][3642.147s][info][gc,heap        ] GC(114) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:34:00.919+0000][3642.148s][info][gc,metaspace   ] GC(114) Metaspace: 45449K(48052K)->45449K(48052K) NonClass: 40240K(41908K)->40240K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:34:00.920+0000][3642.149s][info][gc             ] GC(114) Pause Young (Allocation Failure) 27M->12M(55M) 10.162ms
+[2025-01-26T08:34:00.921+0000][3642.150s][info][gc,cpu         ] GC(114) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T08:35:15.186+0000][3716.412s][info][gc,start       ] GC(115) Pause Young (Allocation Failure)
+[2025-01-26T08:35:15.193+0000][3716.419s][info][gc,task        ] GC(115) Using 5 workers of 5 for evacuation
+[2025-01-26T08:35:15.225+0000][3716.451s][info][gc,heap        ] GC(115) ParNew: 15902K->49K(17792K)
+[2025-01-26T08:35:15.226+0000][3716.452s][info][gc,heap        ] GC(115) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:35:15.226+0000][3716.452s][info][gc,metaspace   ] GC(115) Metaspace: 45452K(48052K)->45452K(48052K) NonClass: 40243K(41908K)->40243K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:35:15.227+0000][3716.453s][info][gc             ] GC(115) Pause Young (Allocation Failure) 27M->12M(55M) 42.120ms
+[2025-01-26T08:35:15.228+0000][3716.454s][info][gc,cpu         ] GC(115) User=0.07s Sys=0.02s Real=0.04s
+[2025-01-26T08:36:29.293+0000][3790.518s][info][gc,start       ] GC(116) Pause Young (Allocation Failure)
+[2025-01-26T08:36:29.297+0000][3790.522s][info][gc,task        ] GC(116) Using 5 workers of 5 for evacuation
+[2025-01-26T08:36:29.306+0000][3790.531s][info][gc,heap        ] GC(116) ParNew: 15921K->34K(17792K)
+[2025-01-26T08:36:29.307+0000][3790.532s][info][gc,heap        ] GC(116) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:36:29.308+0000][3790.533s][info][gc,metaspace   ] GC(116) Metaspace: 45452K(48052K)->45452K(48052K) NonClass: 40243K(41908K)->40243K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:36:29.309+0000][3790.533s][info][gc             ] GC(116) Pause Young (Allocation Failure) 27M->12M(55M) 15.793ms
+[2025-01-26T08:36:29.309+0000][3790.534s][info][gc,cpu         ] GC(116) User=0.02s Sys=0.00s Real=0.02s
+[2025-01-26T08:37:41.742+0000][3862.966s][info][gc,start       ] GC(117) Pause Young (Allocation Failure)
+[2025-01-26T08:37:41.747+0000][3862.971s][info][gc,task        ] GC(117) Using 5 workers of 5 for evacuation
+[2025-01-26T08:37:41.755+0000][3862.979s][info][gc,heap        ] GC(117) ParNew: 15906K->8K(17792K)
+[2025-01-26T08:37:41.756+0000][3862.980s][info][gc,heap        ] GC(117) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:37:41.756+0000][3862.980s][info][gc,metaspace   ] GC(117) Metaspace: 45467K(48052K)->45467K(48052K) NonClass: 40258K(41908K)->40258K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:37:41.757+0000][3862.981s][info][gc             ] GC(117) Pause Young (Allocation Failure) 27M->12M(55M) 15.433ms
+[2025-01-26T08:37:41.758+0000][3862.982s][info][gc,cpu         ] GC(117) User=0.03s Sys=0.00s Real=0.02s
+[2025-01-26T08:38:55.991+0000][3937.212s][info][gc,start       ] GC(118) Pause Young (Allocation Failure)
+[2025-01-26T08:38:55.993+0000][3937.214s][info][gc,task        ] GC(118) Using 5 workers of 5 for evacuation
+[2025-01-26T08:38:55.998+0000][3937.219s][info][gc,heap        ] GC(118) ParNew: 15880K->36K(17792K)
+[2025-01-26T08:38:55.999+0000][3937.220s][info][gc,heap        ] GC(118) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:38:56.000+0000][3937.221s][info][gc,metaspace   ] GC(118) Metaspace: 45467K(48052K)->45467K(48052K) NonClass: 40258K(41908K)->40258K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:38:56.001+0000][3937.222s][info][gc             ] GC(118) Pause Young (Allocation Failure) 27M->12M(55M) 9.731ms
+[2025-01-26T08:38:56.002+0000][3937.223s][info][gc,cpu         ] GC(118) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T08:40:09.261+0000][4010.483s][info][gc,start       ] GC(119) Pause Young (Allocation Failure)
+[2025-01-26T08:40:09.263+0000][4010.484s][info][gc,task        ] GC(119) Using 5 workers of 5 for evacuation
+[2025-01-26T08:40:09.268+0000][4010.489s][info][gc,heap        ] GC(119) ParNew: 15908K->18K(17792K)
+[2025-01-26T08:40:09.269+0000][4010.490s][info][gc,heap        ] GC(119) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:40:09.270+0000][4010.491s][info][gc,metaspace   ] GC(119) Metaspace: 45467K(48052K)->45467K(48052K) NonClass: 40258K(41908K)->40258K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:40:09.271+0000][4010.492s][info][gc             ] GC(119) Pause Young (Allocation Failure) 27M->12M(55M) 9.234ms
+[2025-01-26T08:40:09.271+0000][4010.492s][info][gc,cpu         ] GC(119) User=0.01s Sys=0.01s Real=0.01s
+[2025-01-26T08:41:23.514+0000][4084.735s][info][gc,start       ] GC(120) Pause Young (Allocation Failure)
+[2025-01-26T08:41:23.520+0000][4084.740s][info][gc,task        ] GC(120) Using 5 workers of 5 for evacuation
+[2025-01-26T08:41:23.554+0000][4084.775s][info][gc,heap        ] GC(120) ParNew: 15890K->38K(17792K)
+[2025-01-26T08:41:23.555+0000][4084.776s][info][gc,heap        ] GC(120) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:41:23.556+0000][4084.776s][info][gc,metaspace   ] GC(120) Metaspace: 45467K(48052K)->45467K(48052K) NonClass: 40258K(41908K)->40258K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:41:23.557+0000][4084.778s][info][gc             ] GC(120) Pause Young (Allocation Failure) 27M->12M(55M) 43.844ms
+[2025-01-26T08:41:23.558+0000][4084.778s][info][gc,cpu         ] GC(120) User=0.06s Sys=0.02s Real=0.04s
+[2025-01-26T08:42:37.772+0000][4158.990s][info][gc,start       ] GC(121) Pause Young (Allocation Failure)
+[2025-01-26T08:42:37.774+0000][4158.993s][info][gc,task        ] GC(121) Using 5 workers of 5 for evacuation
+[2025-01-26T08:42:37.789+0000][4159.007s][info][gc,heap        ] GC(121) ParNew: 15910K->20K(17792K)
+[2025-01-26T08:42:37.789+0000][4159.008s][info][gc,heap        ] GC(121) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:42:37.790+0000][4159.009s][info][gc,metaspace   ] GC(121) Metaspace: 45469K(48052K)->45469K(48052K) NonClass: 40260K(41908K)->40260K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:42:37.791+0000][4159.010s][info][gc             ] GC(121) Pause Young (Allocation Failure) 27M->12M(55M) 19.174ms
+[2025-01-26T08:42:37.792+0000][4159.010s][info][gc,cpu         ] GC(121) User=0.02s Sys=0.01s Real=0.02s
+[2025-01-26T08:43:50.079+0000][4231.293s][info][gc,start       ] GC(122) Pause Young (Allocation Failure)
+[2025-01-26T08:43:50.083+0000][4231.297s][info][gc,task        ] GC(122) Using 5 workers of 5 for evacuation
+[2025-01-26T08:43:50.088+0000][4231.301s][info][gc,heap        ] GC(122) ParNew: 15892K->26K(17792K)
+[2025-01-26T08:43:50.088+0000][4231.302s][info][gc,heap        ] GC(122) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:43:50.089+0000][4231.303s][info][gc,metaspace   ] GC(122) Metaspace: 45469K(48052K)->45469K(48052K) NonClass: 40260K(41908K)->40260K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:43:50.090+0000][4231.304s][info][gc             ] GC(122) Pause Young (Allocation Failure) 27M->12M(55M) 11.724ms
+[2025-01-26T08:43:50.091+0000][4231.305s][info][gc,cpu         ] GC(122) User=0.01s Sys=0.00s Real=0.01s
+[2025-01-26T08:45:04.356+0000][4305.572s][info][gc,start       ] GC(123) Pause Young (Allocation Failure)
+[2025-01-26T08:45:04.359+0000][4305.575s][info][gc,task        ] GC(123) Using 5 workers of 5 for evacuation
+[2025-01-26T08:45:04.365+0000][4305.580s][info][gc,heap        ] GC(123) ParNew: 15898K->46K(17792K)
+[2025-01-26T08:45:04.365+0000][4305.581s][info][gc,heap        ] GC(123) CMS: 12414K->12414K(39380K)
+[2025-01-26T08:45:04.366+0000][4305.581s][info][gc,metaspace   ] GC(123) Metaspace: 45469K(48052K)->45469K(48052K) NonClass: 40261K(41908K)->40261K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T08:45:04.366+0000][4305.582s][info][gc             ] GC(123) Pause Young (Allocation Failure) 27M->12M(55M) 10.175ms
+[2025-01-26T08:45:04.367+0000][4305.582s][info][gc,cpu         ] GC(123) User=0.02s Sys=0.00s Real=0.01s
+[2025-01-26T09:01:38.195+0000][5238.027s][info][gc,start       ] GC(124) Pause Young (Allocation Failure)
+[2025-01-26T09:01:38.199+0000][5238.031s][info][gc,task        ] GC(124) Using 5 workers of 5 for evacuation
+[2025-01-26T09:01:38.214+0000][5238.046s][info][gc,heap        ] GC(124) ParNew: 15918K->30K(17792K)
+[2025-01-26T09:01:38.216+0000][5238.047s][info][gc,heap        ] GC(124) CMS: 12414K->12414K(39380K)
+[2025-01-26T09:01:38.217+0000][5238.048s][info][gc,metaspace   ] GC(124) Metaspace: 45483K(48052K)->45483K(48052K) NonClass: 40275K(41908K)->40275K(41908K) Class: 5208K(6144K)->5208K(6144K)
+[2025-01-26T09:01:38.218+0000][5238.050s][info][gc             ] GC(124) Pause Young (Allocation Failure) 27M->12M(55M) 22.899ms
+[2025-01-26T09:01:38.219+0000][5238.051s][info][gc,cpu         ] GC(124) User=0.05s Sys=0.00s Real=0.03s
