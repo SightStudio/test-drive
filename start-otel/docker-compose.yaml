@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  spring-boot-app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      JAVA_TOOL_OPTIONS: "-javaagent:./otelagent/opentelemetry-javaagent.jar"
+    restart: unless-stopped
+
+  spring-boot-app-2:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      JAVA_TOOL_OPTIONS: "-javaagent:./otelagent/opentelemetry-javaagent.jar"
+    restart: unless-stopped
+
+  spring-boot-app-3:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    environment:
+      JAVA_TOOL_OPTIONS: "-javaagent:./otelagent/opentelemetry-javaagent.jar"
+
+      ## OTEL SDK 활성화 하려면 필요함
+      OTEL_SDK_DISABLED: false
+
+      ## 명시적으로 메트릭 exporter를 비활성화한다. (우리는 트레이싱만 필요함)
+      OTEL_METRICS_EXPORTER: none
+
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://otelcol:4317
+      OTEL_EXPORTER_OTLP_LOGS_ENDPOINT: http://otelcol:4318/v1/logs
+      OTEL_EXPORTER_OTLP_LOGS_PROTOCOL: http/protobuf
+      OTEL_RESOURCE_ATTRIBUTES: service.name=app-a,compose_service=app-a
+    restart: unless-stopped

@@ -1,5 +1,3 @@
-import org.springframework.boot.gradle.plugin.SpringBootPlugin
-
 plugins {
     id 'java'
     id 'org.springframework.boot' version '3.4.1'
@@ -29,9 +27,14 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'io.opentelemetry.instrumentation:opentelemetry-spring-boot-starter'
 
     implementation 'org.springframework.kafka:spring-kafka'
+    implementation 'io.opentelemetry.contrib:opentelemetry-samplers:1.33.0-alpha'
+
+    //
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'io.opentelemetry.instrumentation:opentelemetry-spring-boot-starter'
+    implementation 'io.micrometer:micrometer-registry-prometheus'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.kafka:spring-kafka-test'
