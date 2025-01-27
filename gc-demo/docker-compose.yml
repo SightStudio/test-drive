@@ -40,7 +40,7 @@ services:
       - ./gc-log/g1:/app/gc-log
     ports:
       - "8082:8080"
-      - "9011:9010"
+      - "9011:9011"
     environment:
       JAVA_TOOL_OPTIONS:
         >
@@ -51,8 +51,8 @@ services:
         -Dcom.sun.management.jmxremote.authenticate=false
         -Dcom.sun.management.jmxremote.ssl=false
         -Djava.rmi.server.hostname=localhost
-        -Dcom.sun.management.jmxremote.port=9010
-        -Dcom.sun.management.jmxremote.rmi.port=9010
+        -Dcom.sun.management.jmxremote.port=9011
+        -Dcom.sun.management.jmxremote.rmi.port=9011
     deploy:
       resources:
         limits:
@@ -67,10 +67,10 @@ services:
       context: ./demo-modern-jvm
       dockerfile: Dockerfile
     volumes:
-      - ./gc-log/g1:/app/gc-log
+      - ./gc-log/zgc:/app/gc-log
     ports:
       - "8083:8080"
-      - "9012:9010"
+      - "9012:9012"
     environment:
       JAVA_TOOL_OPTIONS:
         >
@@ -81,8 +81,8 @@ services:
         -Dcom.sun.management.jmxremote.authenticate=false
         -Dcom.sun.management.jmxremote.ssl=false
         -Djava.rmi.server.hostname=localhost
-        -Dcom.sun.management.jmxremote.port=9010
-        -Dcom.sun.management.jmxremote.rmi.port=9010
+        -Dcom.sun.management.jmxremote.port=9012
+        -Dcom.sun.management.jmxremote.rmi.port=9012
     deploy:
       resources:
         limits:

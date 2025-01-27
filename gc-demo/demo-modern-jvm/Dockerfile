@@ -31,6 +31,8 @@ COPY --from=builder /app/build/libs/*.jar modern-jvm-app.jar
 
 EXPOSE 8080
 EXPOSE 9010
+EXPOSE 9011
+EXPOSE 9012
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "modern-jvm-app.jar"]
